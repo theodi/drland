@@ -8,9 +8,11 @@ class Lens:
         self.token = token
 
     def query(self, query: dict)-> requests.Response: 
-
-        response = requests.get(
+        headers = {'Authorization': self.token, 'Content-Type': 'application/json'}
+        response = requests.post(
             Lens.search_url, 
-            params={"query": query, "token": self.token}
+            json=query,
+            headers=headers
         )
+
         return response 
