@@ -10,10 +10,8 @@ class Lens:
     def query(self, query: dict)-> list: 
         headers = {'Authorization': self.token, 'Content-Type': 'application/json'}
         query['size'] = Lens.page_size
-        response = requests.post(
-            Lens.search_url, 
-            json=query,
-            headers=headers
-        )
-        results = response.json()['data']
+
+        results = []
+        response = requests.post(Lens.search_url, json=query, headers=headers)
+        results += response.json()['data']
         return results

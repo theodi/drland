@@ -16,14 +16,12 @@ def results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
     rows = []
     for i in results:
         row = {}
-
-        title = i['title']
         # this is going in to a .csv file - so replace commas with spaces
-        title = title.replace(',', ' ')
-        row['title'] = title
+        row['title'] = i['title'].replace(',', ' ')
     
         funders = [j['org'] for j in i['funding']] 
         funders = list(set(funders))
+    
         add_to_results = True
         if include:
             overlap = list(set.intersection(set(funders_include), set(funders)))
@@ -32,7 +30,6 @@ def results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
         if exclude:
             funders_less = list(set(funders) - set(funders_exclude))
             if len(funders_less) == 0: add_to_results = False 
-
 
         if add_to_results:
             # funders list has to fit in one cell
@@ -78,9 +75,7 @@ query = {
 
 
 load_dotenv()
-token = os.environ.get("LENS_TOKEN")
-lens = Lens(token)
-
+lens = Lens(os.environ.get("LENS_TOKEN"))
 print('getting results...')
 results = lens.query(query)
 
@@ -95,10 +90,3 @@ write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS_INCLUDE)
 print('writing all exclude results...')
 csv_rows = results_to_rows(results, exclude=True)
 write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS_EXCLUDE)
-
-# import json
-# with open(filepaths.DATA_RESEARCH_FUNDERS_FILEPATH_JSON, 'w', encoding='utf-8') as f:
-#     json.dump(results, f, ensure_ascii=False, indent=4)
-
-
-
