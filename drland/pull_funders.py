@@ -5,16 +5,49 @@ from dotenv import load_dotenv
 import filepaths
 from lens import Lens
 
-def results_to_rows(results) -> list:
+def results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
+
+    with open(filepaths.FUNDERS_INCLUDE, "r") as file_in:
+        funders_include = file_in.read().splitlines()
+
+    with open(filepaths.FUNDERS_EXCLUDE, "r") as file_in:
+        funders_exclude = file_in.read().splitlines()
+
     rows = []
     for i in results:
-        print(i)
-        row = {'title': i['title']}
-        row['funders'] = '| '.join([j['org'] for j in i['funding']]) 
-        # breakpoint()
-        print(row)
-        rows.append(row)
+        row = {}
+
+        title = i['title']
+        # this is going in to a .csv file - so replace commas with spaces
+        title = title.replace(',', ' ')
+        row['title'] = title
+    
+        funders = [j['org'] for j in i['funding']] 
+        funders = list(set(funders))
+        add_to_results = True
+        if include:
+            overlap = list(set.intersection(set(funders_include), set(funders)))
+            if len(overlap) == 0: add_to_results = False 
+        
+        if exclude:
+            funders_less = list(set(funders) - set(funders_exclude))
+            if len(funders_less) == 0: add_to_results = False 
+
+
+        if add_to_results:
+            # funders list has to fit in one cell
+            row['funders'] = '| '.join(funders)
+            rows.append(row)
+
     return rows
+
+def write_out_results_csv(csv_rows: list, outfile: str):
+    with open(outfile, 'w') as file_out:
+        fieldnames = csv_rows[0].keys()
+        writer = csv.DictWriter(file_out, fieldnames=fieldnames) 
+        writer.writeheader() 
+        for i in csv_rows:
+            writer.writerow(i)
 
 query = {
     "query": {
@@ -48,24 +81,24 @@ load_dotenv()
 token = os.environ.get("LENS_TOKEN")
 lens = Lens(token)
 
+print('getting results...')
 results = lens.query(query)
-print()
+
+print('writing all results...')
 csv_rows = results_to_rows(results)
+write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS)
 
-# # write out
-# with open(filepaths.DATA_RESEARCH_FUNDERS_FILEPATH, 'w') as fileout:
-#     writer = csv.DictWriter(f, fieldnames=["fruit", "count"])
-#     writer.writeheader()
+print('writing all include results...')
+csv_rows = results_to_rows(results, include=True)
+write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS_INCLUDE)
 
-with open(filepaths.DATA_RESEARCH_FUNDERS_FILEPATH, 'w') as f:
-    fieldnames = csv_rows[0].keys()
-    writer = csv.DictWriter(f, fieldnames=fieldnames) 
-    writer.writeheader() 
-    for i in csv_rows:
-        writer.writerow(i)
+print('writing all exclude results...')
+csv_rows = results_to_rows(results, exclude=True)
+write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS_EXCLUDE)
 
-# print(csv_rows)
-# import pprint
-# pp = pprint.PrettyPrinter(indent=4)
-# pp.pprint(csv_rows)
+# import json
+# with open(filepaths.DATA_RESEARCH_FUNDERS_FILEPATH_JSON, 'w', encoding='utf-8') as f:
+#     json.dump(results, f, ensure_ascii=False, indent=4)
+
+
 
