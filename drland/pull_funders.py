@@ -1,11 +1,13 @@
 import os
 import csv
-from dotenv import load_dotenv
+import collections
+
+import dotenv
 
 import filepaths
 from lens import Lens
 
-def results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
+def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
 
     with open(filepaths.FUNDERS_INCLUDE, "r") as file_in:
         funders_include = file_in.read().splitlines()
@@ -38,13 +40,27 @@ def results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
 
     return rows
 
-def write_out_results_csv(csv_rows: list, outfile: str):
+def results_rows_to_top_funders(results_rows: list):
+    all_funders = []
+    funders_rows = []
+    for i in results_rows:
+        row_funders = i['funders'].split('| ')
+        all_funders += row_funders
+
+    funders_count = collections.Counter(all_funders)
+    for funder, count in funders_count.most_common():
+        funders_rows.append({'funder': funder, 'works count': count})
+
+    return funders_rows
+
+def write_out_rows_to_csv(csv_rows: list, outfile: str):
     with open(outfile, 'w') as file_out:
         fieldnames = csv_rows[0].keys()
         writer = csv.DictWriter(file_out, fieldnames=fieldnames) 
         writer.writeheader() 
         for i in csv_rows:
             writer.writerow(i)
+
 
 query = {
     "query": {
@@ -74,19 +90,35 @@ query = {
 }
 
 
-load_dotenv()
+dotenv.load_dotenv()
 lens = Lens(os.environ.get("LENS_TOKEN"))
 print('getting results...')
-results = lens.query(query)
+lens_results = lens.query(query)
 
 print('writing all results...')
-csv_rows = results_to_rows(results)
-write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS)
+results_rows = lens_results_to_rows(lens_results)
+funders_rows = results_rows_to_top_funders(results_rows)
+write_out_rows_to_csv(results_rows, filepaths.WORKS_RESULTS)
+write_out_rows_to_csv(funders_rows, filepaths.TOP_FUNDERS_RESULTS)
 
 print('writing all include results...')
-csv_rows = results_to_rows(results, include=True)
-write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS_INCLUDE)
+results_rows = lens_results_to_rows(lens_results, include=True)
+funders_rows = results_rows_to_top_funders(results_rows)
+write_out_rows_to_csv(results_rows, filepaths.WORKS_RESULTS_INCLUDE)
+write_out_rows_to_csv(funders_rows, filepaths.TOP_FUNDERS_RESULTS_INCLUDE)
 
 print('writing all exclude results...')
-csv_rows = results_to_rows(results, exclude=True)
-write_out_results_csv(csv_rows, filepaths.WORKS_RESULTS_EXCLUDE)
+results_rows = lens_results_to_rows(lens_results, exclude=True)
+funders_rows = results_rows_to_top_funders(results_rows)
+write_out_rows_to_csv(results_rows, filepaths.WORKS_RESULTS_EXCLUDE)
+write_out_rows_to_csv(funders_rows, filepaths.TOP_FUNDERS_RESULTS_EXCLUDE)
+
+# results_rows = lens_results_to_rows(lens_results, exclude=True)
+# write_out_rows_to_csv(results_rows, filepaths.WORKS_RESULTS_EXCLUDE)
+
+# print('writing all exclude results...')
+# csv_rows = lens_results_to_rows(lens_results, exclude=True)
+# write_out_rows_to_csv(csv_rows, filepaths.WORKS_RESULTS_EXCLUDE)
+
+# print('calculating top funders...')
+# write_out_rows_to_csv(funders_rows, filepaths.WORKS_RESULTS_EXCLUDE)
