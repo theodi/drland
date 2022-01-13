@@ -10,10 +10,10 @@ from lens import Lens
 def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
 
     with open(filepaths.FUNDERS_INCLUDE, "r") as file_in:
-        funders_include = file_in.read().splitlines()
+        funders_include = list(set(file_in.read().splitlines()))
 
     with open(filepaths.FUNDERS_EXCLUDE, "r") as file_in:
-        funders_exclude = file_in.read().splitlines()
+        funders_exclude = list(set(file_in.read().splitlines()))
 
     rows = []
     for i in results:
@@ -29,11 +29,11 @@ def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> lis
 
         if include:
             overlap = list(set.intersection(set(funders_include), set(funders)))
-            if len(overlap) == 0: add_to_results = False 
+            if not overlap: add_to_results = False 
         
         if exclude:
             funders_less = list(set(funders) - set(funders_exclude))
-            if len(funders_less) == 0: add_to_results = False 
+            if not funders_less: add_to_results = False 
 
         if add_to_results:
             # funders list has to fit in one cell
