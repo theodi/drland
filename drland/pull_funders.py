@@ -20,11 +20,13 @@ def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> lis
         row = {}
         # this is going in to a .csv file - so replace commas with spaces
         row['title'] = i['title'].replace(',', ' ')
-    
-        funders = [j['org'] for j in i['funding']] 
+        row['year published'] = i['year_published']
+
+        funders = [j['org'] for j in i['funding'] if 'org' in j] 
         funders = list(set(funders))
     
         add_to_results = True
+
         if include:
             overlap = list(set.intersection(set(funders_include), set(funders)))
             if len(overlap) == 0: add_to_results = False 
@@ -40,7 +42,7 @@ def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> lis
 
     return rows
 
-def results_rows_to_top_funders(results_rows: list):
+def results_rows_to_top_funders(results_rows: list) -> list:
     all_funders = []
     funders_rows = []
     for i in results_rows:
@@ -82,10 +84,17 @@ query = {
                         {"match_phrase": {"abstract": "data ethics"}},
                     ]
                 }},
+                {"range": {
+                        "year_published": {
+                            "gte": "2011",
+                            "lte": "2021"
+                        }
+                    }
+                }
             ]
         }
     },
-    "include": ["title", "funding"],
+    "include": ["title", "funding", "year_published"],
     # "stemming": False
 }
 
@@ -112,13 +121,3 @@ results_rows = lens_results_to_rows(lens_results, exclude=True)
 funders_rows = results_rows_to_top_funders(results_rows)
 write_out_rows_to_csv(results_rows, filepaths.WORKS_RESULTS_EXCLUDE)
 write_out_rows_to_csv(funders_rows, filepaths.TOP_FUNDERS_RESULTS_EXCLUDE)
-
-# results_rows = lens_results_to_rows(lens_results, exclude=True)
-# write_out_rows_to_csv(results_rows, filepaths.WORKS_RESULTS_EXCLUDE)
-
-# print('writing all exclude results...')
-# csv_rows = lens_results_to_rows(lens_results, exclude=True)
-# write_out_rows_to_csv(csv_rows, filepaths.WORKS_RESULTS_EXCLUDE)
-
-# print('calculating top funders...')
-# write_out_rows_to_csv(funders_rows, filepaths.WORKS_RESULTS_EXCLUDE)
