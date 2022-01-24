@@ -7,6 +7,7 @@ import dotenv
 import filepaths
 from lens import Lens
 
+
 def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> list:
 
     with open(filepaths.FUNDERS_INCLUDE, "r") as file_in:
@@ -24,7 +25,7 @@ def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> lis
 
         funders = [j['org'] for j in i['funding'] if 'org' in j] 
         funders = list(set(funders))
-    
+
         add_to_results = True
 
         if include:
@@ -39,8 +40,9 @@ def lens_results_to_rows(results, include:bool=False, exclude:bool=False) -> lis
             # funders list has to fit in one cell
             row['funders'] = '| '.join(funders)
             rows.append(row)
-
+            
     return rows
+
 
 def results_rows_to_top_funders(results_rows: list) -> list:
     all_funders = []
@@ -62,6 +64,7 @@ def write_out_rows_to_csv(csv_rows: list, outfile: str):
         writer.writeheader() 
         for i in csv_rows:
             writer.writerow(i)
+
 
 
 query = {

@@ -12,3 +12,6 @@ TOP_FUNDERS_RESULTS_EXCLUDE = ROOT_DIR / 'results' / 'top_funders_results_exclud
 
 FUNDERS_INCLUDE = ROOT_DIR / 'data' / 'funders_include.txt'
 FUNDERS_EXCLUDE = ROOT_DIR / 'data' / 'funders_exclude.txt'
+
+GTR_PROJECTS = ROOT_DIR / 'data' / 'projectsearch-1643043544989.csv'
+
