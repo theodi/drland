@@ -1,53 +1,93 @@
-Medical Research Council
-Wellcome Trust
-Engineering and Physical Sciences Research Council
-Department of Health
+Academy of Medical Sciences
+AHRC
+Alan Turing Institute
+Alcohol Research UK
+Alcohol Research UK
+Alzheimer's Society
+Arthritis Research UK
+Arts and Humanities Research Council
+AstraZeneca
 Biotechnology and Biological Sciences Research Council
+Biotechnology and Biological Sciences Research Council (BBSRC)
+British Academy
+British Council
+British Geological Survey
 British Heart Foundation
 Cancer Research UK
-Natural Environment Research Council
-Economic and Social Research Council
-EPSRC
-Department for International Development, UK Government
-Health Foundation
-Motor Neurone Disease Association
-University of Warwick
 Cancer Research UK (CRUK)
-British Academy
-Arthritis Research UK
-AstraZeneca
-The Dunhill Medical Trust
-Research Councils UK
-Health Services and Delivery Research (HS&DR) Programme
-National Centre for the Replacement, Refinement and Reduction of Animals in Research
-Alan Turing Institute
-Health Services and Delivery Research Programme
-Wellcome
-Chief Scientist Office [UK]
-Diabetes UK
+Centre for the Development and Evaluation of Complex Interventions for Public Health Improvement (DECIPHer)
 Chief Scientist Office
-Marie Curie
+Chief Scientist Office [UK]
+CRUK
+DBT-Wellcome Trust India Alliance
 Department for Environment, Food and Rural Affairs
-Versus Arthritis
-Public Health Research programme
-UK Medical Research Council
-Health Technology Assessment Programme
-Innovate UK
-Arts and Humanities Research Council
-British Geological Survey
-Public Health Research Programme
-NIHR School for Primary Care Research
-Parkinson's UK
-Leverhulme Trust
-University of Bristol
-Pfizer
-Royal Society
-University of Nottingham
-Novartis
-Department of Health [UK]
-Health Data Research UK
-National Institute for Health Research
-Programme Grants for Applied Research
 Department for International Development
+Department for International Development, UK Government
+Department of Health
+Department of Health [UK]
+Department of Health & Social Care
+Diabetes UK
+Durham University
+Economic and Social Research Council
+Efficacy and Mechanism Evaluation programme
+Efficacy and Mechanism Evaluation Programme
+Engineering and Physical Sciences Research Council
+Engineering and Physical Sciences Research Council (EPSRC)
+EPSRC
+ESRC
+Hans Rausing PhD Scholarship
+Health Data Research UK
+Health Foundation
+Health Services and Delivery Research (HS&DR) Programme
+Health Services and Delivery Research Programme
+Health Technology Assessment Programme
+Higher Education Funding Council for England
+Horizon Digital Economy Research, RCUK
+Horizon Digital Economy Research, RCUK
+Innovate UK
+International Development Research Centre
+Leverhulme Trust
+Marie Curie
+Medical Research Council
+Motor Neurone Disease Association
+National Centre for the Replacement, Refinement and Reduction of Animals in Research
+National Institute for Health Research
+National Institute for Health Research (NIHR)
+Natural Environment Research Council
+NERC
+NIHR School for Primary Care Research
+NIHR School for Primary Care Research
+Novartis
+Parkinson's UK
+Pfizer
+Programme Grants for Applied Research
+Public Health England
+Public Health Research programme
+Public Health Research Programme
+RCUK
+Research Councils UK
+Research for Patient Benefit Programme
+Research Trainees Coordinating Centre
+Royal Society
+Science and Technology Facilities Council
+Scottish Funding Council
+Suffolk Coastal District Council
+Suffolk Coastal District Council
+The Dunhill Medical Trust
+The Health Foundation
+UK Medical Research Council
+UK Research and Innovation
+University College London
+University of Bristol
+University of Exeter
+University of Nottingham
+University of Warwick
+Versus Arthritis
+Wellcome
+Wellcome Trust
+Wellcome Trust (GB)
+Wellcome Trust (Wellcome)
+Welsh European Funding Office
+Welsh European Funding Office
 Welsh Government
-Alzheimer's Society
+Wolfson Foundation

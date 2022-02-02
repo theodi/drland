@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 data/.DS_Store
 data/projectsearch-1643043544989.csv
+results/.DS_Store

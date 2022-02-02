@@ -1,171 +1,105 @@
-NCATS NIH HHS
-Agence Nationale de la Recherche
-NIA NIH HHS
-AHRQ HHS
-H2020 European Research Council
-NIEHS NIH HHS
-Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
-NIMH NIH HHS
-NHLBI NIH HHS
-China Postdoctoral Science Foundation
-NIAAA NIH HHS
-National Institutes of Health
-Australian Research Council
-Conselho Nacional de Desenvolvimento Científico e Tecnológico
-Instituto de Salud Carlos III
-Horizon 2020 Framework Programme
-Horizon 2020
-NINDS NIH HHS
-Ministerio de Economía y Competitividad
-NIH HHS
-NSF
-China Scholarship Council
-Intramural NIH HHS
-World Health Organization
-Vetenskapsrådet
-NIAID NIH HHS
-FIC NIH HHS
-National Natural Science Foundation of China
-Fundamental Research Funds for the Central Universities
-U.S. Department of Energy
-Science Foundation Ireland
-National Health and Medical Research Council
-NLM NIH HHS
-NIGMS NIH HHS
-European Regional Development Fund
-Bundesministerium für Bildung und Forschung
-Bill & Melinda Gates Foundation
-NICHD NIH HHS
-NIBIB NIH HHS
-Austrian Science Fund
-Howard Hughes Medical Institute
-Nederlandse Organisatie voor Wetenschappelijk Onderzoek
-European Commission
-Canadian Institutes of Health Research
-Academy of Finland
-National Basic Research Program of China
-European Research Council
-Deutsche Forschungsgemeinschaft
-Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung
-National Key Research and Development Program of China
-National Science Foundation
-Natural Sciences and Engineering Research Council of Canada
-Chinese Academy of Sciences
-National Key R&D Program of China
-NIDA NIH HHS
-NCRR NIH HHS
-NSFC
-ZonMw
-National Research Foundation of Korea
-European Cooperation in Science and Technology
-CIHR
-Ministry of Science and Technology, Taiwan
-Social Sciences and Humanities Research Council of Canada
-Norges Forskningsråd
-Swiss National Science Foundation
-NIDDK NIH HHS
-European Union
-National Aeronautics and Space Administration
-NIMHD NIH HHS
-NHGRI NIH HHS
-Seventh Framework Programme
-Health Research Board
-NCI NIH HHS
-Alfred P. Sloan Foundation
-Bill and Melinda Gates Foundation
-H2020 Marie Skłodowska-Curie Actions
-Japan Society for the Promotion of Science
-National Natural Science Foundation of China
-European Commission
-National Key Research and Development Program of China
-Fundamental Research Funds for the Central Universities
-Guangxi Key Laboratory of Cryptography and Information Security
-Priority Academic Program Development of Jiangsu Higher Education Institutions
-Korean government
-Peng Cheng Laboratory Project of Guangdong Province
-Celgene
-NCATS NIH HHS
-NIA NIH HHS
-AHRQ HHS
-H2020 European Research Council
-NIEHS NIH HHS
-Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
-NIMH NIH HHS
-NHLBI NIH HHS
-China Postdoctoral Science Foundation
-NIAAA NIH HHS
-National Institutes of Health
-Australian Research Council
-NEI NIH HHS
-Conselho Nacional de Desenvolvimento Científico e Tecnológico
-Instituto de Salud Carlos III
-Horizon 2020 Framework Programme
-Horizon 2020
-NINDS NIH HHS
-Ministerio de Economía y Competitividad
-NIH HHS
-NSF
-China Scholarship Council
-Intramural NIH HHS
-World Health Organization
-Vetenskapsrådet
-NIAID NIH HHS
-FIC NIH HHS
-National Natural Science Foundation of China
-Fundamental Research Funds for the Central Universities
-U.S. Department of Energy
-Science Foundation Ireland
-ERC
-National Health and Medical Research Council
-NLM NIH HHS
-NIGMS NIH HHS
-European Regional Development Fund
-Bundesministerium für Bildung und Forschung
-Bill & Melinda Gates Foundation
-NICHD NIH HHS
-NIBIB NIH HHS
-NIDCR NIH HHS
-Amgen
-Austrian Science Fund
-Howard Hughes Medical Institute
-Nederlandse Organisatie voor Wetenschappelijk Onderzoek
-European Commission
-Canadian Institutes of Health Research
-Merck
-Academy of Finland
-National Basic Research Program of China
-FP7 Ideas: European Research Council
-European Research Council
-Deutsche Forschungsgemeinschaft
-Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung
-NIAMS NIH HHS
-National Key Research and Development Program of China
-National Science Foundation
-Natural Sciences and Engineering Research Council of Canada
-Chinese Academy of Sciences
-National Key R&D Program of China
-NIDA NIH HHS
-NCRR NIH HHS
-NSFC
-ZonMw
-National Research Foundation of Korea
-European Cooperation in Science and Technology
 AbbVie
-CIHR
-Ministry of Science and Technology, Taiwan
-Social Sciences and Humanities Research Council of Canada
-Norges Forskningsråd
-Swiss National Science Foundation
-NIDDK NIH HHS
-European Union
-National Aeronautics and Space Administration
-NIMHD NIH HHS
-NHGRI NIH HHS
-Seventh Framework Programme
-Health Research Board
-NCI NIH HHS
+Academy of Finland
+Agence Nationale de la Recherche
+AHRQ HHS
 Alfred P. Sloan Foundation
 ALK-Abelló
+Amgen
+Australian Research Council
+Austrian Science Fund
+Bill & Melinda Gates Foundation
+Bill and Melinda Gates Foundation
+Bundesministerium für Bildung und Forschung
+Canadian Institutes of Health Research
+Celgene
+China Postdoctoral Science Foundation
+China Scholarship Council
+Chinese Academy of Sciences
+CIHR
+COMET framework
+Consejo Nacional de Ciencia y Tecnología
+Conselho Nacional de Desenvolvimento Científico e Tecnológico
+Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+Deutsche Forschungsgemeinschaft
+EPA
+ERC
+European and Developing Countries Clinical Trials Partnership
+European Commission
+European Cooperation in Science and Technology
+European Regional Development Fund
+European Research Council
+European Union
+European Union Seventh Framework Programme
+European Union's Horizon 2020 Research and Innovation Programme
+FDA HHS
+FIC NIH HHS
+FP7 Ideas: European Research Council
+Fundamental Research Funds for the Central Universities
+Fundação para a Ciência e a Tecnologia
+Grantová Agentura České Republiky
+Guangxi Key Laboratory of Cryptography and Information Security
+H2020 European Research Council
 H2020 Marie Skłodowska-Curie Actions
-PHS HHS
+Health Research Board
+Horizon 2020
+Horizon 2020 Framework Programme
+Howard Hughes Medical Institute
+Instituto de Salud Carlos III
+Intramural NIH HHS
 Japan Society for the Promotion of Science
+Korean government
+LIRNEasia
+Merck
+Microsoft
+Ministerio de Economía y Competitividad
+Ministry of Science and Technology, Taiwan
+National Aeronautics and Space Administration
+National Basic Research Program of China
+National Health and Medical Research Council
+National Institutes of Health
+National Key R&D Program of China
+National Key Research and Development Program of China
+National Natural Science Foundation of China
+National Research Foundation
+National Research Foundation of Korea
+National Science Foundation
+Natural Sciences and Engineering Research Council of Canada
+NCATS NIH HHS
+NCI NIH HHS
+NCRR NIH HHS
+Nederlandse Organisatie voor Wetenschappelijk Onderzoek
+NEI NIH HHS
+NHGRI NIH HHS
+NHLBI NIH HHS
+NIA NIH HHS
+NIAAA NIH HHS
+NIAID NIH HHS
+NIAMS NIH HHS
+NIBIB NIH HHS
+NICHD NIH HHS
+NIDA NIH HHS
+NIDCR NIH HHS
+NIDDK NIH HHS
+NIEHS NIH HHS
+NIGMS NIH HHS
+NIH HHS
+NIMH NIH HHS
+NIMHD NIH HHS
+NINDS NIH HHS
+NLM NIH HHS
+Norges Forskningsråd
+NSF
+NSFC
+Peng Cheng Laboratory Project of Guangdong Province
+PHS HHS
+Priority Academic Program Development of Jiangsu Higher Education Institutions
+Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung
+Science Foundation Ireland
+Seventh Framework Programme
+Social Sciences and Humanities Research Council of Canada
+South African Medical Research Council
+Swiss National Science Foundation
+U.S. Department of Energy
+Vetenskapsrådet
+World Health Organization
+ZonMw
