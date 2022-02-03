@@ -31,7 +31,6 @@ def filter_results(results_df) -> pd.DataFrame:
         writer.writerow(["Funder", "Include"])
         for funder in all_funders:
             writer.writerow([funder, ""])
-            # file_out.write(funder + "\n")
     # not_include_inds = list(set(results_df.index) - set(include_inds))
     # results_df.loc[results_df.index[not_include_inds]].to_csv(filepaths.LENS_RESULTS_FILTER_NOT)
 
