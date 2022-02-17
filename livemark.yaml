@@ -1,0 +1,20 @@
+brand:
+  text: My Project
+about:
+  text: My project is for data journalism
+site:
+  favicon: assets/favicon.ico
+# github:
+#   user: <user>
+#   repo: <repo>
+topics:
+  selector: h2
+# links:
+#   items:
+#     - name: About Me
+#       path: https://personal.site
+pages:
+  items:
+    - name: Introduction
+      path: index
+#     - path: pages/data
