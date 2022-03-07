@@ -10,8 +10,8 @@ dotenv.load_dotenv()
 
 def add_descriptions_to_gateway_airtable():
     airtable_api_key = os.environ.get("AIRTABLE_API_KEY")
-    gateway_base_id = os.environ.get("GATEWAY_BASE_ID")
-    table = pyairtable.Table(airtable_api_key, gateway_base_id, 'GtR - Projects - 2020-2022 - 9 keywords')
+    gateway_base_id = os.environ.get("GATEWAY_IUK_ERSRC_BASE_ID")
+    table = pyairtable.Table(airtable_api_key, gateway_base_id, 'GtR - ESRC+IUK - 2011-2022')
     
     update_records = []
     for record in table.all():
