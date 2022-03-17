@@ -4,15 +4,15 @@ about:
   text: My project is for data journalism
 site:
   favicon: assets/favicon.ico
-# github:
-#   user: <user>
-#   repo: <repo>
+github:
+  user: theodi
+  repo: drland
 topics:
   selector: h2
-# links:
-#   items:
-#     - name: About Me
-#       path: https://personal.site
+links:
+  items:
+    - name: Open Data Institute
+      path: https://theodi.org
 pages:
   items:
     - name: Introduction
