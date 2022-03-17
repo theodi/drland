@@ -2,8 +2,8 @@ brand:
   text: Data Research Landscape (Dr.Land)
 about:
   text: My project is for data journalism
-site:
-  favicon: assets/favicon.ico
+# site:
+#   favicon: assets/favicon.ico
 github:
   user: theodi
   repo: drland
@@ -17,12 +17,12 @@ pages:
   items:
     - name: Overview
       path: index
-    - name: Executive Summary
-      path: pages/executive_summary
-    - name: Introduction
-      path: pages/introduction
-    - name: Findings
-      items:
-        - path: pages/findings/qualt-interviews-with-funders
-        - path: pages/findings/qualt-findings-with-quant-evidence
+    # - name: Executive Summary
+    #   path: pages/executive_summary
+    # - name: Introduction
+    #   path: pages/introduction
+    # - name: Findings
+    #   items:
+    #     - path: pages/findings/qualt-interviews-with-funders
+    #     - path: pages/findings/qualt-findings-with-quant-evidence
     
