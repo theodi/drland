@@ -25,4 +25,5 @@ pages:
       items:
         - path: pages/findings/qualt-interviews-with-funders
         - path: pages/findings/qualt-findings-with-quant-evidence
+        - path: pages/findings/who-is-funding
     
