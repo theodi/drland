@@ -3,7 +3,7 @@
 This feature adds an image with an ability to customize dimensions and CSS class:
 
 ```yaml image
-path: ../../assets/drland.jpeg
+path: assets/drland.jpeg
 width: 50%
 height: unset
 class: border

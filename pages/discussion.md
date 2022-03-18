@@ -23,7 +23,7 @@
 	* Basically a cluster diagram similar to this one about meta-research (research on research) being conducted in different fields…
 
 ```yaml image
-path: ../../assets/clusters.png
+path: ../assets/clusters.png
 width: 50%
 height: unset
 class: border
