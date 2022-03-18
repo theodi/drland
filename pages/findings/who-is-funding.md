@@ -22,7 +22,7 @@
 data: data/360giving_funders.csv
 width: 800
 order:
-  - [3, 'desc']
+  - [2, 'desc']
 columns:
   - data: funder
   - data: amount
@@ -37,7 +37,7 @@ Within the 360Giving data set, there is approximately £30 million of funding fo
 data: data/gtr_funders.csv
 width: 600
 order:
-  - [3, 'desc']
+  - [2, 'desc']
 columns:
   - data: funder
   - data: amount
