@@ -44,41 +44,16 @@ columns:
 
 ### Total citations for each keyword in Lens (from YEAR-YEAR)
 
-**Keyword**
-**Total citations**
-**Number of publications**
-Data sharing
-1928
-336
-Misinformation
-1088
-136
-Digital economy
-659
-75
-Data infrastructure
-283
-44
-Value of data
-344
-41
-Automated decision making
-118
-19
-Data ethics
-325
-16
-Data literacy
-261
-12
-Data rights
-13
-4
-Digital trade
-1
-2
-
-
+```yaml table
+data: data/lens_keywords.csv
+autowidth: true
+order:
+  - [2, 'desc']
+columns:
+  - data: keyword
+  - data: citations
+  - data: publications
+```
 
 ### Discussion of these findings and any necessary caveats, clarification or context
 * [xxx]

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Data sharing">
+<meta name="description" content="None">
 <meta name="keywords" content="how,much,funding,is,being,directed,at,each,of,the,ten,keywords,from,‘data,2020’?">
 <link rel="icon" href="None">
 <title>How much funding is being directed at each of the ten keywords from ‘Data 2020’? | Data Research Landscape (Dr.Land)</title>
@@ -1851,7 +1851,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2022-03-18 14:41)
+  (2022-03-18 14:45)
 </div>
 
 <h1>How much funding is being directed at each of the ten keywords from ‘Data 2020’?</h1>
@@ -2021,39 +2021,84 @@ document.addEventListener("DOMContentLoaded", function(){
 </script>
 
 <h3>Total citations for each keyword in Lens (from YEAR-YEAR)</h3>
-<p><strong>Keyword</strong>
-<strong>Total citations</strong>
-<strong>Number of publications</strong>
-Data sharing
-1928
-336
-Misinformation
-1088
-136
-Digital economy
-659
-75
-Data infrastructure
-283
-44
-Value of data
-344
-41
-Automated decision making
-118
-19
-Data ethics
-325
-16
-Data literacy
-261
-12
-Data rights
-13
-4
-Digital trade
-1
-2</p>
+<div class="livemark-table" style="overflow-x: auto">
+  <div style="width: 100%">
+    <table id="livemark-table-3">
+      <thead>
+        <tr>
+                    <th>keyword</th>
+                    <th>citations</th>
+                    <th>publications</th>
+                  </tr>
+      </thead>
+      <tbody>
+                <tr>
+                    <td>Data sharing</td>
+                    <td>1928</td>
+                    <td>336</td>
+                  </tr>
+                <tr>
+                    <td>Misinformation</td>
+                    <td>1088</td>
+                    <td>136</td>
+                  </tr>
+                <tr>
+                    <td>Digital economy</td>
+                    <td>659</td>
+                    <td>75</td>
+                  </tr>
+                <tr>
+                    <td>Data infrastructure</td>
+                    <td>283</td>
+                    <td>44</td>
+                  </tr>
+                <tr>
+                    <td>Value of data</td>
+                    <td>344</td>
+                    <td>41</td>
+                  </tr>
+                <tr>
+                    <td>Automated decision making</td>
+                    <td>118</td>
+                    <td>19</td>
+                  </tr>
+                <tr>
+                    <td>Data ethics</td>
+                    <td>325</td>
+                    <td>16</td>
+                  </tr>
+                <tr>
+                    <td>Data literacy</td>
+                    <td>261</td>
+                    <td>12</td>
+                  </tr>
+                <tr>
+                    <td>Data rights</td>
+                    <td>13</td>
+                    <td>4</td>
+                  </tr>
+                <tr>
+                    <td>Digital trade</td>
+                    <td>1</td>
+                    <td>2</td>
+                  </tr>
+              </tbody>
+      <tfoot>
+        <tr>
+                    <th>keyword</th>
+                    <th>citations</th>
+                    <th>publications</th>
+                  </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  $('#livemark-table-3').DataTable(JSON.parse('{"autowidth": true, "order": [[2, "desc"]], "columns": [{"data": "keyword"}, {"data": "citations"}, {"data": "publications"}], "columnDefs": [{"targets": "_all", "orderSequence": ["desc", "asc"]}]}'))
+})
+</script>
+
 <h3>Discussion of these findings and any necessary caveats, clarification or context</h3>
 <ul>
 <li>[xxx]</li>
@@ -2479,7 +2524,7 @@ document.addEventListener("DOMContentLoaded", function () {
           'name': 'How much funding is being directed at each of the ten keywords from ‘Data 2020’?',
           'path': 'pages/findings/how-much-funding-keywords',
           'relpath': 'how-much-funding-keywords',
-          'text': "# How much funding is being directed at each of the ten keywords from \u2018Data 2020\u2019? * For this question we chose to focus not on individual funders, but on the total amount of funding (and projects?) for each of the ten keywords/topics that make up our initial sketch of \u2018data-related research\u2019 * As discussed in the methods section, for the sake of simplicity, we are defining \u2018data-related research\u2019 as a cluster of ten keywords drawn from the ten \u2018hot topics\u2019 in [Data 2020](https://theodi.org/article/data-2020/) . * Data ethics * Data sharing * Misinformation * Data infrastructure * Digital economy * Value of data * Data rights * Data literacy * Digital trade * Automated decision making ### Total amount of funding for each keyword in 360Giving (from 2012-2021) * For 360Giving we are looking at grants awarded in the **ten years from 2012-2021** (ie since the founding of the ODI) ```yaml table data: data/360giving_keywords.csv autowidth: true order: - [2, \u0027desc\u0027] columns: - data: keyword - data: amount - data: grants ``` ### Total amount of funding for each keyword in Gateway to Research (from YEAR-YEAR) * (For GtR we are looking projects that started in the last two years, 2020-2022) * **Important caveat**: including the keyword \u201cmisinformation\u201d ballooned the returned results from the low hundreds up to 40,000 for reasons we could not understand. So we left it out. ```yaml table data: data/gtr_keywords.csv autowidth: true order: - [2, \u0027desc\u0027] columns: - data: keyword - data: amount - data: projects ``` ### Total citations for each keyword in Lens (from YEAR-YEAR) **Keyword** **Total citations** **Number of publications** Data sharing 1928 336 Misinformation 1088 136 Digital economy 659 75 Data infrastructure 283 44 Value of data 344 41 Automated decision making 118 19 Data ethics 325 16 Data literacy 261 12 Data rights 13 4 Digital trade 1 2 ### Discussion of these findings and any necessary caveats, clarification or context * [xxx]",
+          'text': "# How much funding is being directed at each of the ten keywords from \u2018Data 2020\u2019? * For this question we chose to focus not on individual funders, but on the total amount of funding (and projects?) for each of the ten keywords/topics that make up our initial sketch of \u2018data-related research\u2019 * As discussed in the methods section, for the sake of simplicity, we are defining \u2018data-related research\u2019 as a cluster of ten keywords drawn from the ten \u2018hot topics\u2019 in [Data 2020](https://theodi.org/article/data-2020/) . * Data ethics * Data sharing * Misinformation * Data infrastructure * Digital economy * Value of data * Data rights * Data literacy * Digital trade * Automated decision making ### Total amount of funding for each keyword in 360Giving (from 2012-2021) * For 360Giving we are looking at grants awarded in the **ten years from 2012-2021** (ie since the founding of the ODI) ```yaml table data: data/360giving_keywords.csv autowidth: true order: - [2, \u0027desc\u0027] columns: - data: keyword - data: amount - data: grants ``` ### Total amount of funding for each keyword in Gateway to Research (from YEAR-YEAR) * (For GtR we are looking projects that started in the last two years, 2020-2022) * **Important caveat**: including the keyword \u201cmisinformation\u201d ballooned the returned results from the low hundreds up to 40,000 for reasons we could not understand. So we left it out. ```yaml table data: data/gtr_keywords.csv autowidth: true order: - [2, \u0027desc\u0027] columns: - data: keyword - data: amount - data: projects ``` ### Total citations for each keyword in Lens (from YEAR-YEAR) ```yaml table data: data/lens_keywords.csv autowidth: true order: - [2, \u0027desc\u0027] columns: - data: keyword - data: citations - data: publications ``` ### Discussion of these findings and any necessary caveats, clarification or context * [xxx]",
       },
       };
   const searchIndex = lunr(function () {
