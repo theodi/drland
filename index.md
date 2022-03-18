@@ -3,7 +3,7 @@
 This feature adds an image with an ability to customize dimensions and CSS class:
 
 ```yaml image
-path: https://github.com/theodi/drland/blob/main/assets/clusters.png?raw=true
+path: https://github.com/theodi/drland/blob/main/assets/drland.jpeg?raw=true
 width: 50%
 height: unset
 class: border
