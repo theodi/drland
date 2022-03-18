@@ -20,7 +20,7 @@
 
 ```yaml table
 data: data/360giving_funders.csv
-width: 800
+autowidth: true
 order:
   - [2, 'desc']
 columns:
@@ -35,7 +35,7 @@ Within the 360Giving data set, there is approximately £30 million of funding fo
 
 ```yaml table
 data: data/gtr_funders.csv
-width: 600
+autowidth: true
 order:
   - [2, 'desc']
 columns:
