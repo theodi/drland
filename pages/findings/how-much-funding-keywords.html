@@ -1799,6 +1799,16 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
             Who is conducting ‘data-related research’?
           </a>
         </li>
+                <li class="secondary ">
+          <a href="where-is-publishing.html" class="secondary">
+            Where is this research published, communicated and discussed?
+          </a>
+        </li>
+                <li class="secondary ">
+          <a href="top-articles.html" class="secondary">
+            What are the top articles for data-related-research in Lens (from 2020-2022)?
+          </a>
+        </li>
               </ul>
           </li>
         <li class="primary  ">
@@ -2463,7 +2473,19 @@ document.addEventListener("DOMContentLoaded", function () {
           'name': 'Who is conducting ‘data-related research’?',
           'path': 'pages/findings/who-is-researching',
           'relpath': 'who-is-researching',
-          'text': "# Who is conducting \u2018data-related research\u2019? ## Who are the top 10 ~research organisations~ conducting research in this area as a whole? ### For this question we are looking at data-related research as a whole - rather than at individual keywords - based on different metrics. ### Who are the top 10 research organisations in this area by total amount of funding received? ### Who are the top research organisations in this area based on the total number of projects won? ## 360Giving ```yaml table data: data/360giving_researchers.csv autowidth: true order: - [3, \u0027desc\u0027] columns: - data: organisation - data: grants - data: amount - data: years - data: min-year - data: max-year ``` ## Gateway to Research projects ### Top 20 in order of amount funded ### Caveat: not all projects have an amount of funding ```yaml table data: data/gtr_researchers.csv autowidth: true order: - [3, \u0027desc\u0027] columns: - data: organisation - data: amount - data: projects ``` ## Discussion of these findings and any necessary caveats, clarification or context * ### [xxx] * ### Producing a table of top authors by number of publications or citations would have been possible - either as a whole or for each keyword - but we decided not to because of reasons\u2026",
+          'text': "# Who is conducting \u2018data-related research\u2019? ## Who are the top 10 ~research organisations~ conducting research in this area as a whole? ### For this question we are looking at data-related research as a whole - rather than at individual keywords - based on different metrics. ### Who are the top 10 research organisations in this area by total amount of funding received? ### Who are the top research organisations in this area based on the total number of projects won? ## 360Giving ```yaml table data: data/360giving_researchers.csv autowidth: true order: - [3, \u0027desc\u0027] columns: - data: organisation - data: grants - data: amount - data: years - data: min-year - data: max-year ``` ## Gateway to Research projects ### Top 20 in order of amount funded ### Caveat: not all projects have an amount of funding ```yaml table data: data/gtr_researchers.csv autowidth: true order: - [1, \u0027desc\u0027] columns: - data: organisation - data: amount - data: projects ``` ## Discussion of these findings and any necessary caveats, clarification or context * ### [xxx] * ### Producing a table of top authors by number of publications or citations would have been possible - either as a whole or for each keyword - but we decided not to because of reasons\u2026",
+      },
+          'pages/findings/where-is-publishing': {
+          'name': 'Where is this research published, communicated and discussed?',
+          'path': 'pages/findings/where-is-publishing',
+          'relpath': 'where-is-publishing',
+          'text': "# Where is this research published, communicated and discussed? ### Where are the top 10 places for publishing \u2018data-related research\u2019 as a whole? * This will be based on our Lens dataset. * Are these primarily academic, public, private, third sector? Are they published openly or behind a paywall? Are they primarily peer-reviewed? Are results primarily written or are they communicated in other forms? * From Lens, Top \u201cSource title\u201d (journal title) by total count, include publication type, and include column on publisher * Behind the scenes: tally of country of publication (based on the Lens data - don\u2019t actually go track it down) * [xxx INSERT: table/chart xxx] ### Where are the top (3?) places for publishing research related to each of our ten keywords? * This will be based on our Lens dataset. * Are these primarily academic, public, private, third sector? Are they published openly or behind a paywall? Are they primarily peer-reviewed? Are results primarily written or are they communicated in other forms? * [xxx INSERT: table/chart xxx] ### Discussion of these findings and any necessary caveats, clarification or context * [xxx]",
+      },
+          'pages/findings/top-articles': {
+          'name': 'What are the top articles for data-related-research in Lens (from 2020-2022)?',
+          'path': 'pages/findings/top-articles',
+          'relpath': 'top-articles',
+          'text': "# What are the top articles for data-related-research in Lens (from 2020-2022)? ## INSERT: Top (10-15) articles within Lens based on amount citation count (across all of data-related research) ```yaml table data: data/lens_articles.csv autowidth: true order: - [2, \u0027desc\u0027] columns: - data: title - data: keyword - data: count ``` ## INSERT: links to ten different Airtable views, each containing the articles in our Lens dataset that match a given keyword * Basically a reading list of the most-cited academic articles for each keyword over the past two years (ie one view for data ethics articles, another for data justice articles) with results ranked by number of citations * TO CHECK: can we embed an airtable into Livemark? Each reading list could have its own page",
       },
           'pages/discussion': {
           'name': 'Discussion and future work',
