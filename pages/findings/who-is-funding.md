@@ -15,63 +15,23 @@
 			* 360Giving doesn’t have publications
 			* Funding data is harder to analyse within Lens for a given country
 			* Project-level data for funders is spotty
+
 ### Total amount of money for grants in 360Giving / Total number of grants in 360Giving
-**Funding Organisation**
-Total amount (£)
-Number of grants
-**The Wellcome Trust**
-£18,040,829.00
-40
-**Department for Business, Energy and Industrial Strategy**
-£7,435,773.04
-14
-**Cabinet Office**
-£2,409,375.00
-1
-**Esmée Fairbairn Foundation**
-£650,000.00
-2
-**Department for Digital, Culture, Media and Sport**
-£550,000.00
-1
-**Nuffield Foundation**
-£339,157.00
-1
-**Joseph Rowntree Charitable Trust**
-£178,350.00
-2
-**Indigo Trust**
-£51,926.00
-2
-**Joseph Rowntree Reform Trust**
-£32,084.00
-1
-**Barrow Cadbury Trust**
-£29,000.00
-1
-**Department for Culture, Media and Sport**
-£22,060.00
-3
-**Paul Hamlyn Foundation**
-£10,320.00
-1
-**The National Lottery Community Fund**
-£10,000.00
-1
-**Coop Foundation**
-£7,941.20
-1
-**Foundation Scotland**
-£3,470.00
-1
-**Grand Total**
-**£29,770,285.24**
-**72**
+
+```yaml table
+data: data/360giving_funders.csv
+width: 800
+order:
+  - [3, 'desc']
+columns:
+  - data: funder
+  - data: amount
+  - data: grants
+```
 
 Within the 360Giving data set, there is approximately £30 million of funding for data related research across 72 grants.
 
 ### Number of projects and amount of money per funder in GtR
-
 
 ```yaml table
 data: data/gtr_funders.csv

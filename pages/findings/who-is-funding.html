@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Total amount (£)">
+<meta name="description" content="Within the 360Giving data set, there is approximately £30 million of funding for data related research across 72 grants.">
 <meta name="keywords" content="who,is,funding,‘data-related,research’,(as,a,whole)">
 <link rel="icon" href="None">
 <title>Who is funding ‘data-related research’ (as a whole) | Data Research Landscape (Dr.Land)</title>
@@ -1846,7 +1846,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2022-03-18 11:41)
+  (2022-03-18 12:07)
 </div>
 
 <h1>Who is funding ‘data-related research’ (as a whole)</h1>
@@ -1882,62 +1882,114 @@ The different databases don’t contain the same data/ columns<ul>
 </li>
 </ul>
 <h3>Total amount of money for grants in 360Giving / Total number of grants in 360Giving</h3>
-<p><strong>Funding Organisation</strong>
-Total amount (£)
-Number of grants
-<strong>The Wellcome Trust</strong>
-£18,040,829.00
-40
-<strong>Department for Business, Energy and Industrial Strategy</strong>
-£7,435,773.04
-14
-<strong>Cabinet Office</strong>
-£2,409,375.00
-1
-<strong>Esmée Fairbairn Foundation</strong>
-£650,000.00
-2
-<strong>Department for Digital, Culture, Media and Sport</strong>
-£550,000.00
-1
-<strong>Nuffield Foundation</strong>
-£339,157.00
-1
-<strong>Joseph Rowntree Charitable Trust</strong>
-£178,350.00
-2
-<strong>Indigo Trust</strong>
-£51,926.00
-2
-<strong>Joseph Rowntree Reform Trust</strong>
-£32,084.00
-1
-<strong>Barrow Cadbury Trust</strong>
-£29,000.00
-1
-<strong>Department for Culture, Media and Sport</strong>
-£22,060.00
-3
-<strong>Paul Hamlyn Foundation</strong>
-£10,320.00
-1
-<strong>The National Lottery Community Fund</strong>
-£10,000.00
-1
-<strong>Coop Foundation</strong>
-£7,941.20
-1
-<strong>Foundation Scotland</strong>
-£3,470.00
-1
-<strong>Grand Total</strong>
-<strong>£29,770,285.24</strong>
-<strong>72</strong></p>
+<div class="livemark-table" style="overflow-x: auto">
+  <div style="width: 800px">
+    <table id="livemark-table-1">
+      <thead>
+        <tr>
+                    <th>funder</th>
+                    <th>amount</th>
+                    <th>grants</th>
+                  </tr>
+      </thead>
+      <tbody>
+                <tr>
+                    <td>The Wellcome Trust</td>
+                    <td>£18,040,829.00</td>
+                    <td>40</td>
+                  </tr>
+                <tr>
+                    <td>Department for Business, Energy and Industrial Strategy</td>
+                    <td>£7,435,773.04</td>
+                    <td>14</td>
+                  </tr>
+                <tr>
+                    <td>Cabinet Office</td>
+                    <td>£2,409,375.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Esmée Fairbairn Foundation</td>
+                    <td>£650,000.00</td>
+                    <td>2</td>
+                  </tr>
+                <tr>
+                    <td>Department for Digital, Culture, Media and Sport</td>
+                    <td>£550,000.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Nuffield Foundation</td>
+                    <td>£339,157.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Joseph Rowntree Charitable Trust</td>
+                    <td>£178,350.00</td>
+                    <td>2</td>
+                  </tr>
+                <tr>
+                    <td>Indigo Trust</td>
+                    <td>£51,926.00</td>
+                    <td>2</td>
+                  </tr>
+                <tr>
+                    <td>Joseph Rowntree Reform Trust</td>
+                    <td>£32,084.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Barrow Cadbury Trust</td>
+                    <td>£29,000.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Department for Culture, Media and Sport</td>
+                    <td>£22,060.00</td>
+                    <td>3</td>
+                  </tr>
+                <tr>
+                    <td>Paul Hamlyn Foundation</td>
+                    <td>£10,320.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>The National Lottery Community Fund</td>
+                    <td>£10,000.00</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Coop Foundation</td>
+                    <td>£7,941.20</td>
+                    <td>1</td>
+                  </tr>
+                <tr>
+                    <td>Foundation Scotland</td>
+                    <td>£3,470.00</td>
+                    <td>1</td>
+                  </tr>
+              </tbody>
+      <tfoot>
+        <tr>
+                    <th>funder</th>
+                    <th>amount</th>
+                    <th>grants</th>
+                  </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  $('#livemark-table-1').DataTable(JSON.parse('{"order": [[3, "desc"]], "columns": [{"data": "funder"}, {"data": "amount"}, {"data": "grants"}], "columnDefs": [{"targets": "_all", "orderSequence": ["desc", "asc"]}]}'))
+})
+</script>
+
 <p>Within the 360Giving data set, there is approximately £30 million of funding for data related research across 72 grants.</p>
 <h3>Number of projects and amount of money per funder in GtR</h3>
 <div class="livemark-table" style="overflow-x: auto">
   <div style="width: 600px">
-    <table id="livemark-table-1">
+    <table id="livemark-table-2">
       <thead>
         <tr>
                     <th>funder</th>
@@ -1999,7 +2051,7 @@ Number of grants
 </div>
 <script>
 document.addEventListener("DOMContentLoaded", function(){
-  $('#livemark-table-1').DataTable(JSON.parse('{"order": [[3, "desc"]], "columns": [{"data": "funder"}, {"data": "amount"}, {"data": "projects"}], "columnDefs": [{"targets": "_all", "orderSequence": ["desc", "asc"]}]}'))
+  $('#livemark-table-2').DataTable(JSON.parse('{"order": [[3, "desc"]], "columns": [{"data": "funder"}, {"data": "amount"}, {"data": "projects"}], "columnDefs": [{"targets": "_all", "orderSequence": ["desc", "asc"]}]}'))
 })
 </script>
 
@@ -2432,7 +2484,7 @@ document.addEventListener("DOMContentLoaded", function () {
           'name': 'Who is funding ‘data-related research’ (as a whole)',
           'path': 'pages/findings/who-is-funding',
           'relpath': 'who-is-funding',
-          'text': "# Who is funding \u2018data-related research\u2019 (as a whole) * For this question we chose to focus on the top 10-20 funders based on a series of different metrics * Parameters * What: data-related research - ie the ten keywords * When: 2020-2021/22 * Where: UK * Metrics * Total amount of money; * number of grants/ projects; * total number of publications funded * Caveats, clarifications and context * The different databases don\u2019t contain the same data/ columns * 360Giving doesn\u2019t have publications * Funding data is harder to analyse within Lens for a given country * Project-level data for funders is spotty ### Total amount of money for grants in 360Giving / Total number of grants in 360Giving **Funding Organisation** Total amount (\u00a3) Number of grants **The Wellcome Trust** \u00a318,040,829.00 40 **Department for Business, Energy and Industrial Strategy** \u00a37,435,773.04 14 **Cabinet Office** \u00a32,409,375.00 1 **Esm\u00e9e Fairbairn Foundation** \u00a3650,000.00 2 **Department for Digital, Culture, Media and Sport** \u00a3550,000.00 1 **Nuffield Foundation** \u00a3339,157.00 1 **Joseph Rowntree Charitable Trust** \u00a3178,350.00 2 **Indigo Trust** \u00a351,926.00 2 **Joseph Rowntree Reform Trust** \u00a332,084.00 1 **Barrow Cadbury Trust** \u00a329,000.00 1 **Department for Culture, Media and Sport** \u00a322,060.00 3 **Paul Hamlyn Foundation** \u00a310,320.00 1 **The National Lottery Community Fund** \u00a310,000.00 1 **Coop Foundation** \u00a37,941.20 1 **Foundation Scotland** \u00a33,470.00 1 **Grand Total** **\u00a329,770,285.24** **72** Within the 360Giving data set, there is approximately \u00a330 million of funding for data related research across 72 grants. ### Number of projects and amount of money per funder in GtR ```yaml table data: data/gtr_funders.csv width: 600 order: - [3, \u0027desc\u0027] columns: - data: funder - data: amount - data: projects ``` ### Of the list of top UK funders, who are most occurring funders and what number of citations within our Lens dataset? * Filter by citations * Work down until we\u2019ve identified 10 distinct funders * Standardise the names if there are any variations * Tally up the number of citations for each of those funders within the top 100 * (recognising it is an extremely small sample) * (citations is a way of gauging impact, therefore, this is, in a way, top funder by impact) * [xxx INSERT: table/chart xxx] ### Discussion of these findings and any necessary caveats, clarification or context * [xxx]",
+          'text': "# Who is funding \u2018data-related research\u2019 (as a whole) * For this question we chose to focus on the top 10-20 funders based on a series of different metrics * Parameters * What: data-related research - ie the ten keywords * When: 2020-2021/22 * Where: UK * Metrics * Total amount of money; * number of grants/ projects; * total number of publications funded * Caveats, clarifications and context * The different databases don\u2019t contain the same data/ columns * 360Giving doesn\u2019t have publications * Funding data is harder to analyse within Lens for a given country * Project-level data for funders is spotty ### Total amount of money for grants in 360Giving / Total number of grants in 360Giving ```yaml table data: data/360giving_funders.csv width: 800 order: - [3, \u0027desc\u0027] columns: - data: funder - data: amount - data: grants ``` Within the 360Giving data set, there is approximately \u00a330 million of funding for data related research across 72 grants. ### Number of projects and amount of money per funder in GtR ```yaml table data: data/gtr_funders.csv width: 600 order: - [3, \u0027desc\u0027] columns: - data: funder - data: amount - data: projects ``` ### Of the list of top UK funders, who are most occurring funders and what number of citations within our Lens dataset? * Filter by citations * Work down until we\u2019ve identified 10 distinct funders * Standardise the names if there are any variations * Tally up the number of citations for each of those funders within the top 100 * (recognising it is an extremely small sample) * (citations is a way of gauging impact, therefore, this is, in a way, top funder by impact) * [xxx INSERT: table/chart xxx] ### Discussion of these findings and any necessary caveats, clarification or context * [xxx]",
       },
       };
   const searchIndex = lunr(function () {
