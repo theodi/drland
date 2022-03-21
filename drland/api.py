@@ -23,7 +23,5 @@ class Gateway:
             if response_json['page'] == response_json['totalPages']:
                 complete = True
             
-            print(complete)
-        
         return results
 
