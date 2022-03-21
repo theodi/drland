@@ -1,3 +1,9 @@
+'''
+When data is downloaded from the Gateway to Research website it doesn't include the descriptions of the projects.
+This is a small script to pull those descriptions from the GtR API and then use the Airtable API to write those
+descriptions to the dataset. 
+'''
+
 import os
 
 import dotenv
