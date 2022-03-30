@@ -1,7 +1,7 @@
 brand:
   text: Data Research Landscape (Dr.Land)
 about:
-  text: My project is for data journalism
+  text: A study of the emerging field of data-related research
 # site:
 #   favicon: assets/favicon.ico
 github:
@@ -10,6 +10,7 @@ github:
 news:
   text: Work in progress!
 display: false
+rating: false
 topics:
   selector: h2
 links:
@@ -20,8 +21,8 @@ pages:
   items:
     - name: Introduction
       path: index
-    # - name: Introduction
-    #   path: pages/introduction
+    - name: Methodology
+      path: pages/methodology
     - name: Findings
       items:
         - path: pages/findings/qualt-interviews-with-funders
