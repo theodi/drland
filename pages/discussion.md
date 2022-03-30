@@ -1,87 +1,72 @@
 # Discussion and future work
+Although these are only initial results, we believe they demonstrate the value of this type of research. There is value in tracking government-funded academic research through systems like 360Giving, Gateway to Research and The Lens Scholarly Works and it is indeed possible to map parts of the landscape of data-related research. With further work, it should be possible to provide a more detailed overview of funding and research related to data, its value, management, uses and impacts. 
 
-# Trends we've identified in data-related research/ interesting points
+In particular, we believe that the tables and datasets produced during this research project can help people interested in data-related research topics to search for and locate relevant materials more efficiently and effectively. The tables and datasets can be filtered to highlight the articles and funding schemes that people are interested in. For instance, someone interested in data ethics would be able to:
 
-* Anything surprising or that confirms our suspicions? 
-* The pandemic’s impact on funding
-* Are we able to gauge the Data 2020 predictions?
-* Is this an us (ie ODI) problem?
-	* Are we the only ones who are looking for visibility across all these areas?
-	* Yes, across the wide breadth, but there seem to be overlaps between some of the keywords, topics, themes etc, and those are likely to be interesting to other orgs/people, eg
-		* Data ethics, data literacy, data governance
-		* AI for good, autonomous decision making, AI ethics, explainability
+* Use the [lists of top funders](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.cw1b5vr3o9st) in order to identify relevant funding opportunities.
+* Use the [lists of top research organisations](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.hs8cgxcjrl8k) to identify content experts and potential collaborators.
+* Use the [lists of top journals](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.y7q8zohagazt) related to data ethics to understand where the topic is communicated and discussed most.
+* Use the [lists of the top fields of study](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.yiz3bc62u326) related to data ethics as a way of expanding their own list of search terms while conducting desk research and as a way of targeting relevant results when searching databases like the Lens and OpenAlex. 
+* Use the [network diagram](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.7rqkshns4kd6) to identify the academic disciplines where data ethics is discussed the most and to identify areas of overlap with other concepts or keywords.
 
-### QUESTIONS TO ANSWER: How many different ‘fields of study’ and areas of research is ‘data-related’ research spread across?
-* **ONE**: Using the ‘fields of study’ in the Lens dataset, is it possible to produce a list of all the fields of study in our culled dataset, ranked by the number of times that the field of study appeared in our dataset? **DONE**
-	* This should help us expand our list of ten ‘data-related’ keywords (which were admittedly chosen semi at random based on the contents of Data 2020) to a larger set of 20-30 fields of study that can be used to define the WIP boundaries of data-related research.
-	* It should also help us replace any of the ten keywords that may have a better, more standardised field of study that we should be searching for.
-		* For instance, ‘data rights’ does not appear as a field of study in our dataset, but ‘digital rights’ does. Possibly data rights is not an established field of study. Going forward, we could search for digital rights instead
-	* We could then continue this process in the future by searching for other relevant keywords that seem to be missing from our list, download the related articles, cull them to ensure they are relevant, then add any new relevant fields of study to our growing list of standardised fields of study within the emerging field of ‘data-related research’
-* **TWO**: Using the fields of study in the Lens dataset, is it possible to define the top 5-10 fields of study relevant to each of our ten keywords? eg for those articles tagged as ‘automated decision-making’, what are the top 5-10 fields of study?
-	* This would be helpful to better target searches for topics that do not have clear keywords or search terms. For instance, ‘automated decision making’ is not a field of study in our dataset. Knowing the top five fields of study related to the articles we tagged as ‘automated decision making’ would potentially help people interested in automated decision-making to target their search to capture relevant articles.
-* **THREE**: Using the ‘fields of study’ from the Lens dataset, is it possible to visualise the wide landscape of academic research (math(s), physics, chemistry, biology, social science, arts and humanities, etc) and then show the amount of ‘data-related research’ being conducted within each of those areas? 
-	* Basically a cluster diagram similar to this one about meta-research (research on research) being conducted in different fields…
+This will help:
+* **Researchers** to identify relevant research and findings in adjacent areas of enquiry, identify experts and potential collaborators, stay up to date on emerging ideas and topics, build on previous work, identify potential sources of funding and coordinate to avoid duplicated effort. 
+* **Potential users of this research** to locate the findings, insights and evidence that are relevant to their circumstances and needs. 
+* **Funders and supporters of data-related research** to spot peaks and troughs of funding, identify emerging ideas and technologies worth funding, spotlight under-examined topics, understand the funding focus of other funders and coordinate with others to produce the greatest impact.
 
-```yaml image
-path: https://github.com/theodi/drland/blob/main/assets/clusters.png?raw=true
-width: 50%
-height: unset
-class: border
-```
+## Gaps in the evidence base and how we will work to fill them
+It is important to note, however, that these results are based on an extremely small section of the entire landscape of data-related research, in large part because there are major gaps in the evidence base. So long as these gaps remain unfilled, it will only be possible to map parts of the data-related research landscape - a comprehensive view of the field will remain out of reach. 
 
-Possibly using  [this free(?) tool](https://www.vosviewer.com/)  recommended to us by RORI
-* Short of this, even a list of fields of study related to different areas of academic research would be useful - eg a list showing fields of study related to math(s), biology, computer science, social science, economics, arts and humanities, etc
+Over the coming years, the ODI’s Evidence & Foresight programme will continue mapping the emerging field of data-related research and help fill in these large gaps in the evidence base. This will involve working to convene interested people and organisations to understand the challenges better and co-develop strategies to address them. 
 
-# Potential uses for different audiences
+### Non-academic ‘grey literature’
+One large gap in the evidence base is related to research conducted outside of academia and published outside peer-reviewed journals or academic conferences. 
 
-* Researchers
-* Funders
-* Users of research
-* Policymakers
-* Research on research
+The systems set up to track funding and research are primarily focused on peer-reviewed academic research and do not tend to capture non-academic ‘[grey literature](https://libguides.exeter.ac.uk/c.php?g=670055&p=4756572)’, for example, project reports, technical evaluations and white papers produced by third sector research institutes, government agencies, industrial firms, consultancies and the media. It also misses huge areas of non-literature research outcomes like datasets, software tools, conferences, outreach programmes, spin-outs, patents and artistic works. 
 
-# Gaps and how to fill them
+This is a problem because a lot of thought leadership, innovation and agenda-setting happens [outside of academia](https://blogs.lse.ac.uk/impactofsocialsciences/2022/02/07/by-focusing-on-outputs-rather-than-people-we-misunderstand-the-real-impact-of-research/). Focusing on government-funded academic research can lead to a distorted view of how innovative ideas are developed into impactful services and products. 
 
-* *Basically a repeat of the gap-related points from the short summary report (see section below)*
+There are a few notable attempts to fill this gap in the evidence base and connect the academic and non-academic research worlds, such as [Altmetric](https://www.altmetric.com/audience/researchers/) and [Overton](https://www.overton.io/) , and some databases like [Dimensions](https://www.dimensions.ai/dimensions-data/) have begun capturing reports from large think-tanks and non-governmental organisations. Expanding the types of documents captured by indexing databases should help to fill some of the gaps in the evidence base around non-academic research. 
 
-# Ideas for further work (basically an internal/external sales pitch for funding to continue work on this area)
+Research published by non-academic sources, however, is currently much more difficult to track than academic research and potentially dwarfs the number of articles published within academia each year. Mapping this section of the data-related research landscape will not be solved by a few organisations working in relative isolation. 
 
-* **Overall pitch**
-* There is a problem here, and we don’t know the answer, but we are committed to following up, including through further research, collaborations and playing a role as a convener… 
-* **Filling in the landscape outside of government-funded academic research**
-	* In the short term, further work to track funding within academia across different funders, regions, types of funding for specific topics. 
-		* Sites like 360Giving and Gateway to Research provide some of this functionality, but not a wide enough view. How could this be improved?
-	* In the medium term, further work could focus on the non-academic world to confirm whether:
-		* It is *~possible~* to fill some of these gaps, eg by going directly to non-academic research orgs to link funding, projects and outputs
-			* What other orgs are trying to map grey literature? Are these services useful?
-				* Overton
-				* Dimensions includes some policy/government reports
-				* Altmetrics tracks some relevant aspects
-		* It is *~useful~* to fill these gaps to get a more holistic view of research about data - eg being able to trace research about data from funding to output for more than just academic orgs. Can academic and non-academic be combined in an easy/meaningful way?
-		* It is *~difficult~* to fill these gaps, possibly because it is time consuming with fewer systems in place
-		* (aka Dr Land 2.0 - The Squeakquel) 
-	* In the long term, the ODI could explore how to convene different parties and stakeholders from inside/outside academic to work to fill in the gap around ‘grey literature’
-		* Convene events and workshops with relevant stakeholders
-			* Eg an event with the members which is partly about gauging whether they also see a challenge and what they think might be the solutions… 
-		* Explore options for adopting and adapting standards used within academia to track research outside of academia
-		* Explore options for tracking non-academic research beyond of the standard methods used within academia
-		* To lead by example, the ODI could publish **its own** reports and outputs in a way that is aligned with or interoperable with existing academic systems, eg by:
-			* Identifying whether workable systems, schemas and publishing standards exist to publish, catalogue and connect its own to academic research
-			* Demonstrating the value of doing this
-			* Working with other non-academic orgs to understand their views on the matter and possibly co-designing ways of moving forward, eg by pushing the adoption of publishing standards and/or cataloguing outputs from non-academic orgs to submit them to sites like Lens Scholar
-* **Work to produce a semi-automated way of searching databases like Lens and OpenAlex**
-	* Every article in Lens has a list of relevant keywords and fields of study. Since we hand-culled the datasets, they should be relevant. 
-	* Meaning we now have a fairly expansive set of keywords and fields of study that can serve as a starting point to define the rough boundaries of ‘data-related research’. 
-		* We also have lists of fields of study for each of our ten keywords
-	* We should be able to repurpose those lists to help us - and others - to search for ‘data-related research more efficiently and effectively, eg
-		* For someone interested in data ethics we might be able to point them to:
-			* The top 10 keywords to include with their search in order to narrow down the results and reject unuseful articles
-			* The top related academic disciplines/ fields of study
-			* Areas of overlap with other concepts or keywords
-			* The top journal articles to focus on
-			* The top research organisations working in that field
-* **Making our datasets and/or infrastructure available externally**
-	* OPTIONAL: An ~~interactive dashboard~~ or simply a spreadsheet that interested parties can use to conduct their own research in this area 		* The data we use should be available to download 
-			* Assuming the platforms share data with appropriate licenses (Lens might be quite restrictive?)
-		* Visualisations should also be reusable
-		* An airtable with some of our datasets that is open and viewable
+In the coming years we intend to explore ways of working in collaboration with academic and non-academic organisations to connect these two parts of the landscape of data-related research. For instance by hosting events that seek to connect academic and non-academic researchers working on similar data-related topics. Or by convening academic and non-academic organisations to explore options for adopting and adapting the existing schemas, standards and systems used within academia. This might involve co-creating a metadata standard for reports and other non-academic research outputs, which could then lead to the creation of search and discovery tools for grey literature that are similar in function to those we have used to track academic research.
+
+### Open research and open science
+Another gap that needs to be addressed is related to open research and open science. 
+
+Many of the largest and best-curated databases for tracking funding and research, such as Web of Science and Scopus exist behind paywalls. Most universities and large research organisations pay for access to at least one of these databases, but for many people and smaller research organisations, these costs are prohibitive. 
+
+Supporting openly accessible databases like the Lens and [OpenAlex](https://openalex.org/) should help make it possible for more people and organisations to conduct this type of research. OpenAlex, in particular, promises to be a useful resource for researchers. It is an ‘index of hundreds of millions of interconnected entities across the global research system’ that is free and open source. At the time of writing, the API is up and running and the web interface is scheduled for launch in April 2022.
+
+We would also like to see more paid services offering programmes like the one run by Dimensions which provides [free access to its database](https://dimensions.freshdesk.com/support/solutions/articles/23000020558-how-can-i-get-access-to-dimensions-for-scientometric-research-) for non-commercial scientometric research projects. Unfortunately, its requirement that those granted free access must publish their results ‘in a peer-reviewed journal, or share them at a scientific conference’ once again draws an unhelpful distinction between academic and non-academic research, potentially precluding some non-academic researchers and organisations from gaining access to a valuable resource.
+
+### Open and standardised funding information
+A third major gap in the evidence base is related to funding and grants information. 
+
+There is only limited information about funding and grants contained within the databases that exist to track funding and research, and this is true of paid and open databases. This potentially leads to blind spots for funders and researchers and duplication of effort.
+
+The issue is not necessarily with these databases, but with the reporting of funding and grants information by funders and researchers. Government funding agencies are relatively good at publishing data about their funding portfolios, and some philanthropic funders like Wellcome publish funding data in standard formats that can be ingested into research databases like 360Giving and [OpenAire](https://explore.openaire.eu/). But on the whole, reliable funding data is difficult to come by. 
+
+More widespread adoption of things like the [360Giving Data Standard](https://www.threesixtygiving.org/support/standard/) by funders would help to fill in some of these gaps, as would greater commitment by researchers and research organisations to include funding details in their publications – not just in academia, but across the rest of the data-related research landscape as well.
+
+## Questions for further research
+In addition to working to address the gaps in the evidence base outlined above, we will spend the next year working to answer a series of further questions that this research project has surfaced.
+
+### The future of data-related research
+One question we are interested in exploring is what the future of data-related research looks like. First, we want to talk to more people to see if they agree with our assessment that there is an emerging field of data-related research. Based on our initial research, there are others who agree that there is a field emerging around data-related topics, but we want to confirm this. We will seek to do this via a combination of interviews, surveys and further scientometric and bibliometric analysis. If our research confirms that a field is indeed emerging, that raises an interesting question of whether that field should remain spread across a range of academic disciplines and areas of inquiry, or whether it would benefit from becoming a separate, new field. 
+
+As we showed in the quantitative findings section, data-related research is currently being conducted in fields as diverse as mathematics, computer science, geography, biology, medicine, political science, law, media studies, economics and psychology. If the field remains an orthogonal, cross-domain topical thread then it will be imperative to ensure that research findings in those disparate areas of inquiry can be transmitted easily across the network and that people are able to connect to exchange methods, theory, advice and even peer review. 
+
+In particular it would be important to ensure that people conducting data-related research within their home domain are supported with knowledge, theory and skills that are specifically relevant and necessary for exploring questions related to data, its value, management, uses and impacts. 
+
+On the other hand, if the field were to become a separate area of inquiry, then it would be important to ensure that those working in the field utilise as many different methods and perspectives as possible when exploring questions related to data. Indeed, one benefit of data-related research remaining as a cross-domain research topic might be that it would help ensure that the field does not pursue a narrow set of data-related topics from a few theoretical and methodological perspectives. Since data is seemingly everywhere, it may make sense to ensure that research about data is conducted everywhere by the people who understand those domains. 
+
+Over the coming years our aim is to convene and collaborate with people and organisations across this emerging field in order to understand their view of the future of data-related research. 
+
+### Search and discovery tools
+Another question we are interested in exploring is whether it is possible to create search and discovery tools or services that would be useful to people interested in data-related topics. For instance, we hope to experiment and trial different tools which can help audiences more easily locate relevant data-related research. During our work for this project, we found that it is time consuming to sift through research outputs and funding descriptions to find those that are *about* data, its value, management, uses and impacts as opposed to merely those that mention or refer to data. Conveniently, identifying data-related research is a task that is quite suitable for natural-language processing and machine learning. Given the structured datasets and our hand-labelled datasets, it may be possible to create a machine learning classifier to identify data-related publications or projects. Considering the nuance in judging whether an output is data-related, it’s unlikely any machine-learning system could ever achieve perfect accuracy, but it can certainly become *good enough*to produce relevant lists and better search results. Our  [initial, quick experiment with creating this classifier](https://github.com/theodi/drland/blob/main/drland/classify_lens.py)  achieved 70–80% accuracy when compared to our hand-labelled dataset. 
+
+Over the next year we plan to build on this tool with the aim to increase the scope beyond our initial 10 data-related keywords, to run tens, even hundreds more keywords through this machine-learning system. One design question we intend to investigate is which formats are best suited to presenting these lists and results, depending on the needs of different parties. It could be an automated email newsletter, or a site with a searchable archive, or an analytics dashboard, or all of these. 
+
+We intend to test this proposition with interested parties over the coming year, so please  [contact us](mailto:research.team@theodi.org)  if you are interested in taking part.
