@@ -18,12 +18,10 @@ links:
       path: https://theodi.org
 pages:
   items:
-    - name: Overview
-      path: index
-    - name: Executive Summary
-      path: pages/executive_summary
     - name: Introduction
-      path: pages/introduction
+      path: index
+    # - name: Introduction
+    #   path: pages/introduction
     - name: Findings
       items:
         - path: pages/findings/qualt-interviews-with-funders

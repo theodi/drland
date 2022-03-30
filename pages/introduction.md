@@ -1,88 +1,25 @@
+# Introduction
 
+Over the past few decades, data has gained increasing importance and relevance in seemingly all social, economic and political contexts. From social relations and communications to retail operations and public administration and governance, digital technologies and automated systems have been embedded in the workings of many societies; the amount of data collected about people as they move through those societies has grown at a startling pace. 
 
-# Approach/ methodology and overview of research question(s)
-* We worked from the ground up - letting the field emerge from the analysis rather than pre-defining the boundaries of the field
-	* *Borrow as much as possible from the launch blog post and work note, eg why we’re not trying to define the boundaries of the field (ie working from the ground up) and starting with funders (ie tracing the funding cycle)*
-* Our research questions were…
-	* Our main research question was: What is going on in the data-related research landscape?
-	* Our secondary research questions were:
-		* Who is funding research in this area?
-			* In the UK, who are the major funders of ‘data-related research’ - ie research about data, its value, uses and impacts?
-			* How much funding do they direct toward ‘data-related research’ each year? How much in past years? How much is planned for future years?
-			* What is the process for securing funding/ what are the requirements? 
-		* What ‘data-related’ topics are being funded by these organisations? 
-			* What is currently big in the world of data, tech, policy, governance, new uses of data, etc.? 
-			* What are going to be the next big things in data over the next one, five, ten years?
-	* Some of which could be answered via qualt research, some via quant, and some through a mix
-* We started by speaking to funders because
-	* It made sense to follow the money (funding → research → publication → impact)
-	* It was more manageable
-	* We spoke to 
-		* Philanthropic funders
-			* Wellcome
-			* Sloan Foundation
-			* Open Society
-			* Ford Foundation
-			* Lloyd’s Register Foundation
-			* Nuffield Foundation
-		* UK Research and Innovation (UKRI)
-			* Biotechnology and Biological Sciences Research Council (BBSRC) 
-			* Engineering and Physical Sciences Research Council (EPSRC)
-			*   Arts and Humanities Research Council (AHRC)
-			* Science and Technology Facilities Council (STFC)
-			* Medical Research Council (MRC)
-			* Natural Environment Research Council (NERC)
-			* Innovate UK
-	* Brief description of methods (but not too much - people understand interviews and thematic coding of transcripts)
-		* Desk research on funders
-			* Interested in understanding (a) general information about the organisation – core goals or mission, governance paradigm, and sector, (b) type of funding organisation – the functions it fulfils or services it provides, (c) main activities and projects going on.
-		* Interviews with funders
-			* Type of funders [research councils, philanthropic bodies, all doing research in the UK, interested in data-related topics] 
-			* We asked them about
-				* The role they see for themselves in the data-related research landscape
-				* How they decide which topics to fund
-				* How the application review process works
-				* If/how they track the impact they have
-				* If/how they engage with other funders as part of the funding process
-* We then moved to quantitatively analyse funding, research, publication, impact
-	* We first identified datasets that would enable us to answer our research questions, each of which has specific benefits and limitations
-		* GtR
-		* 360Giving
-		* Lens Scholar (mention and thank Lens - probably also mention Lens near each table or chart)
-	* Defined our parameters
-		* Ten keywords chosen from Data 2020
-			* For the sake of simplicity, we adopted an initial, heuristic definition of ‘data-related research’ as a cluster of ten keywords drawn from the ten ‘hot topics’ in  [Data 2020](https://theodi.org/article/data-2020/) .
-				* Data ethics
-				* Data sharing
-				* Misinformation
-				* Data infrastructure
-				* Digital economy
-				* Value of data
-				* Data rights
-				* Data literacy
-				* Digital trade
-				* Automated decision-making
-			* Had to start somewhere in terms of what we meant by ‘data-related research’
-				* With the intention of then expanding and snowballing these terms into adjacent terms, related areas etc.
-			* This was the ODI’s estimation of what would be important in 2020, so this also enabled us to check our work in a sense… to see whether those topics were indeed as important as predicted.
-		* Which is why we decided to focus on 2020-2021
-			* We had wanted to analyse ten years, but the amount of time and labour needed to clean and cull a dataset that large was beyond the bounds of this project
-		* UK
-			* For now we are focusing on UK funders, but we would like to expand beyond that.
-				* For 360Giving, it’s exclusively UK funders
-				* For GtR it’s UK government research councils
-				* For Lens, it is based on location of publication (???) 
-					* (but this doesn’t appear to be accurate for every article. There are some that are not UK-based publications)
-	* Downloaded the relevant datasets
-	* Cleaned them
-	* Culled them
-	* Analysed them
-	* The process and resulting datasets come with a number of caveats… 
-		* Time intensive
-		* Lens returned some results that didn’t appear to include any of our search terms(???)
-		* Within Lens, filtering by ‘the UK’ meant the place of publication not researcher (???)
-		* INSERT: anything else… 
-		* Some articles in Lens are classed as journal articles because they come from a journal, but in reality they are book reviews, letters to the editor, reports on conferences, corrections, etc.
-* We then moved to communicate the findings and the value of the process and infrastructure
-	* Experimenting by presenting the findings in two different formats
-	* The datasets are available online (can/ do we want to publish the datasets?)
+As a result, research about data, its value, management, uses and impacts – what we call ‘data-related research’ – is being conducted in a wide range of areas, sometimes in unexpected places and ways. As well as inside academia in fields with an obvious interest in data, like computer science, data studies and the philosophy of science, research is also taking place in less-obvious fields like psychology, art, agriculture and literature. Research is also being conducted outside academia in the private, public and third sectors, in the media, in consultancies, in community organisations and across industry.
+
+And yet, despite the widespread importance of data in so many diverse parts of life – or perhaps *because* of its widespread importance – it is extremely difficult to have a comprehensive view of all the available research, writing and communication about data. It seems that since data is everywhere, research about data can be potentially everywhere as well. The fragmented and dispersed nature of this emerging research field creates a number of challenges. For researchers, it can be difficult to identify relevant research and findings in adjacent areas of enquiry. This can make it difficult to build on previous work, collaborate on shared interests, or coordinate to avoid duplicated effort. For the potential users of this research, it can be difficult to locate the findings, insights and evidence that are relevant to their circumstances and needs. For funders and supporters of data-related research, it can be difficult to spot peaks and troughs of funding, identify under-examined areas or coordinate with others to produce the greatest impact.
+
+To help provide visibility of this field of research, trace developments, and link funding, research and impact, we conducted a nine-month-long mixed-methods research project. We drew on methodologies such as landscape reviews,  [‘research on research’](https://diigo.com/0nr6jg) , scientometric analysis and  [bibliometric analysis](https://diigo.com/0nr6ek) , all of which have demonstrated their value in other fields of investigation and research such as funding for  [climate change](https://www.ukcdr.org.uk/funding-landscape/uk-oda-funding-overview/)  and  [cancer research](https://diigo.com/0nr6fr) . These methodologies can even be used to examine the link between funding, research and impact in the past – which can help to understand the present and think strategically about the future.
+
+We believe this research will be useful for a range of audiences. 
+* First, it will help funders to be more targeted in their funding and to identify emerging topics.
+* Second, it will help researchers to easily identify the overall trends of the field and collaborate with other researchers who are interested in sharing effort and expertise.
+* Finally, for those who use research results, this work will hopefully help them have a clear understanding of the findings and evidence being gathered across the data-related research landscape that best suits their work.
+
+The rest of the report is made up of the following sections:
+* The  [Methodology](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.35xbs96tztzq)  section defines our research questions and describes the mixed-methods approach we used to understand the data-related landscape. 
+* The  [Findings](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.bvd7vdvoe92h)  section presents the results from our qualitative and quantitative research
+	* In the  [Qualitative](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.180xccwi1ht2)  section we review interviewees’ answers about the emerging field of data-related research, how fragmented it is, and how these funders cooperate and plan for areas of future funding. 
+	* In the  [Quantitative](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.79b8w3umet1v)  section we analyse data we gathered on how dispersed this field is, who is funding it, how much they are funding, who is receiving funding, and where they are publishing their work. 
+* The  [Discussion and future work](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.tqct26vbgyf5)  section reviews our findings and our plans to continue working in this area. 
+	* We discuss  [gaps in the evidence base](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.4655pdn24bnv) , particularly non-academic grey literature, the need for more open research data sources, and better standardised funding information.
+	* Lastly, we outline  [questions for future research](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.wvjwv3vikre6) , including speaking to many more people, finding more sources of data, and building discovery tools to help others better understand this field.
+
+This report has been researched and produced by the Open Data Institute, and published in March 2022. Its authors are Jared Robert Keller, Sara Marcucci, Joe Massey, Fionntán O’Donnell and Annalisa Eichholzer. To share feedback by email or to get in touch, contact the Evidence & Foresight programme at,  [research.team@theodi.org](mailto:research.team@theodi.org) 
