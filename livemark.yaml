@@ -25,11 +25,11 @@ pages:
       path: pages/methodology
     - name: Findings
       items:
-        - path: pages/findings/qualt-interviews-with-funders
+        # - path: pages/findings/qualt-interviews-with-funders
         - path: pages/findings/qualitative-findings
         - path: pages/findings/dispersed-field
         # - path: pages/findings/qualt-findings-with-quant-evidence
-        # - path: pages/findings/who-is-funding
+        - path: pages/findings/who-is-funding
         # - path: pages/findings/how-much-funding-keywords
         # - path: pages/findings/who-is-researching
         # - path: pages/findings/where-is-publishing
