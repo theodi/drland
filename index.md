@@ -15,11 +15,11 @@ We believe this research will be useful for a range of audiences.
 
 The rest of the report is made up of the following sections:
 * The  [Methodology](pages/methodology.html)  section defines our research questions and describes the mixed-methods approach we used to understand the data-related landscape. 
-* The  [Findings](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.bvd7vdvoe92h)  section presents the results from our qualitative and quantitative research
-	* In the  [Qualitative](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.180xccwi1ht2)  section we review interviewees’ answers about the emerging field of data-related research, how fragmented it is, and how these funders cooperate and plan for areas of future funding. 
-	* In the  [Quantitative](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.79b8w3umet1v)  section we analyse data we gathered on how dispersed this field is, who is funding it, how much they are funding, who is receiving funding, and where they are publishing their work. 
+* The  Findings  section presents the results from our qualitative and quantitative research
+	* In the  [Qualitative](XXXXX)  section we review interviewees’ answers about the emerging field of data-related research, how fragmented it is, and how these funders cooperate and plan for areas of future funding. 
+	* In the  [Quantitative](XXXXXX)  section we analyse data we gathered on how dispersed this field is, who is funding it, how much they are funding, who is receiving funding, and where they are publishing their work. 
 * The  [Discussion and future work](pages/discussion.html)  section reviews our findings and our plans to continue working in this area. 
-	* We discuss  [gaps in the evidence base](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.4655pdn24bnv) , particularly non-academic grey literature, the need for more open research data sources, and better standardised funding information.
-	* Lastly, we outline  [questions for future research](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.wvjwv3vikre6) , including speaking to many more people, finding more sources of data, and building discovery tools to help others better understand this field.
+	* We discuss  [gaps in the evidence base](pages/discussion.html#gaps-in-the-evidence-base-and-how-we-will-work-to-fill-them), particularly non-academic grey literature, the need for more open research data sources, and better standardised funding information.
+	* Lastly, we outline  [questions for future research](pages/discussion.html#questions-for-further-research) , including speaking to many more people, finding more sources of data, and building discovery tools to help others better understand this field.
 
 This report has been researched and produced by the Open Data Institute, and published in March 2022. Its authors are Jared Robert Keller, Sara Marcucci, Joe Massey, Fionntán O’Donnell and Annalisa Eichholzer. To share feedback by email or to get in touch, contact the Evidence & Foresight programme at,  [research.team@theodi.org](mailto:research.team@theodi.org) 

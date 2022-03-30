@@ -7,8 +7,8 @@ about:
 github:
   user: theodi
   repo: drland
-news:
-  text: Work in progress!
+# news:
+#   text: Work in progress!
 display: false
 rating: false
 topics:
