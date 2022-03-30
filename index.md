@@ -14,7 +14,7 @@ We believe this research will be useful for a range of audiences.
 * Finally, for those who use research results, this work will hopefully help them have a clear understanding of the findings and evidence being gathered across the data-related research landscape that best suits their work.
 
 The rest of the report is made up of the following sections:
-* The  [Methodology](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.35xbs96tztzq)  section defines our research questions and describes the mixed-methods approach we used to understand the data-related landscape. 
+* The  [Methodology](pages/methodology.html)  section defines our research questions and describes the mixed-methods approach we used to understand the data-related landscape. 
 * The  [Findings](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.bvd7vdvoe92h)  section presents the results from our qualitative and quantitative research
 	* In the  [Qualitative](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.180xccwi1ht2)  section we review interviewees’ answers about the emerging field of data-related research, how fragmented it is, and how these funders cooperate and plan for areas of future funding. 
 	* In the  [Quantitative](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.79b8w3umet1v)  section we analyse data we gathered on how dispersed this field is, who is funding it, how much they are funding, who is receiving funding, and where they are publishing their work. 

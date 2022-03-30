@@ -3,7 +3,7 @@ This is a mixed-methods research project that aims to combine qualitative interv
 
 Rather than begin by speaking to researchers or launching into a scientometric analysis of scholarly research, our approach was to speak first to funders and supporters of research related to data, its value, management, uses and impacts. Given the central role funders play in the research ecosystem, it seemed reasonable to investigate who and what they fund, and for what reasons.
 
-Because of the emerging and varied nature of the field of data-related research, we avoided rigidly or precisely defining what we mean by ‘data-related research’ at the start of the project. Instead, we worked from the  [ground up](https://en.wikipedia.org/wiki/Grounded_theory)  – letting the topics, methods and theoretical framings that make up the field emerge from the analysis rather than pre-defining its boundaries. We believed this would enable us to cast our eyes as wide as possible and remain open to including areas of research in our landscape that we might not have anticipated. 
+Because of the emerging and varied nature of the field of data-related research, we avoided rigidly or precisely defining what we mean by ‘data-related research’ at the start of the project. Instead, we worked from the [ground up](https://en.wikipedia.org/wiki/Grounded_theory) – letting the topics, methods and theoretical framings that make up the field emerge from the analysis rather than pre-defining its boundaries. We believed this would enable us to cast our eyes as wide as possible and remain open to including areas of research in our landscape that we might not have anticipated. 
 
 ## Research questions
 The main questions we wanted to answer through this research were:
