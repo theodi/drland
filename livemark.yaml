@@ -33,6 +33,6 @@ pages:
         - path: pages/findings/amount-changed-decade
         - path: pages/findings/who-is-researching
         - path: pages/findings/where-is-publishing
-        # - path: pages/findings/top-articles
+        - path: pages/findings/most-cited-articles
     - name: Discussion
       path: pages/discussion
