@@ -19,18 +19,18 @@ Many people’s definitions or conceptions of the field therefore seem to cover 
 To better understand the perspective from which each funder was approaching the idea of data-related research, and to understand where their work overlaps with that landscape, we consulted the websites of the 13 funders we interviewed and noted down the wide range of data-related projects and focus areas. 
 
 **Philanthropic funders**
-*  [Wellcome](https://wellcome.org/) has a whole area of interest titled ‘Data and artificial intelligence’ that includes the following subtopics:
+* [Wellcome](https://wellcome.org/) has a whole area of interest titled ‘Data and artificial intelligence’ that includes the following subtopics:
 	* Data for science and health: trustworthy data science
 	* Data sharing in public health emergencies
 	* Open research
 	* Sharing research data to improve public health
 	* Public Health Research Data Forum
 	* Patient data in research
-*  [The Sloan Foundation](https://sloan.org/) has a program titled ‘Economic analysis of science and technology’ which analyses the economic impacts and opportunities stemming from the adoption of digital technology and data-driven systems. 
-*  [The Open Society Foundation](https://www.opensocietyfoundations.org/) has an ‘Information and Digital Rights’ working area. 
-*  [The Ford Foundation](https://www.fordfoundation.org/) categorises some of its work under topics called ‘Technology and Society’ and ‘Future of Work(ers)’.
-*  [The   Lloyd’s Register Foundation](https://www.lrfoundation.org.uk/en/) works on the ‘Safety of digital systems’. 
-*  [The Nuffield Foundation](https://www.nuffieldfoundation.org/) doesn’t have any working area specifically related to data, but they encapsulate different data-related projects within broader categories. The  [‘Welfare’ category](https://www.nuffieldfoundation.org/research/welfare) in particular has filters such as 
+* [The Sloan Foundation](https://sloan.org/) has a program titled ‘Economic analysis of science and technology’ which analyses the economic impacts and opportunities stemming from the adoption of digital technology and data-driven systems. 
+* [The Open Society Foundation](https://www.opensocietyfoundations.org/) has an ‘Information and Digital Rights’ working area. 
+* [The Ford Foundation](https://www.fordfoundation.org/) categorises some of its work under topics called ‘Technology and Society’ and ‘Future of Work(ers)’.
+* [The   Lloyd’s Register Foundation](https://www.lrfoundation.org.uk/en/) works on the ‘Safety of digital systems’. 
+* [The Nuffield Foundation](https://www.nuffieldfoundation.org/) doesn’t have any working area specifically related to data, but they encapsulate different data-related projects within broader categories. The [‘Welfare’ category](https://www.nuffieldfoundation.org/research/welfare) in particular has filters such as 
 	* Artificial Intelligence
 	* Digital society
 	* Digital inclusion and exclusion
@@ -38,15 +38,15 @@ To better understand the perspective from which each funder was approaching the 
 	* Valuing data
  
 **UK Research and Innovation (UKRI)**
-*  [The Medical Research Council](https://www.gov.uk/government/organisations/medical-research-council)’s ‘Biomedical and health data science’ investment area aims to harness, with public trust, the power of data resources and tools to gain new health and wellbeing insights. 
-*  [The   Engineering and Physical Sciences Research Council](https://epsrc.ukri.org/) are developing strategies to influence how their portfolio evolves to include themes such as artificial intelligence and robotics, or digital twins and related cyber-physical infrastructure. 
-*  [The   Arts and Humanities Research Council](https://www.ukri.org/councils/ahrc/)’s ‘Creative industries’ programme tackles issues related to innovation and the digital economy and the ‘Joint Programming Initiative on Cultural Heritage (JPI CH)’ is aimed at finding new, often data-based ways to help Europe’s cities transition to an innovative future maximising their sustainability, resilience and liveability. 
-*  [The Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) encourages proposals for research with potential impacts relating to topics such as data-driven biology and technology development for the biosciences.
-*  [The Science and Technology Facilities Council](https://stfc.ukri.org/) tackles issues like computational science, exploring the value of data and the ways in which this can be maximised to support and promote research and innovation in fields ranging from energy to engineering, from particle physics to the life sciences.
-*  [Innovate UK](https://www.ukri.org/councils/innovate-uk/) is working on a range of different topics on business innovation, climate change, and resilient finance, supporting the development of new approaches in a range of technologies including advanced manufacturing, artificial intelligence, digital, electronics, sensors, biosciences, quantum and advanced computing.
-*  [The Natural Environment Research Council](https://nerc.ukri.org/) are looking at new, innovative ways to achieve a net zero, economy and society.
+* [The Medical Research Council](https://www.gov.uk/government/organisations/medical-research-council)’s ‘Biomedical and health data science’ investment area aims to harness, with public trust, the power of data resources and tools to gain new health and wellbeing insights. 
+* [The Engineering and Physical Sciences Research Council](https://epsrc.ukri.org/) are developing strategies to influence how their portfolio evolves to include themes such as artificial intelligence and robotics, or digital twins and related cyber-physical infrastructure. 
+* [The Arts and Humanities Research Council](https://www.ukri.org/councils/ahrc/)’s ‘Creative industries’ programme tackles issues related to innovation and the digital economy and the ‘Joint Programming Initiative on Cultural Heritage (JPI CH)’ is aimed at finding new, often data-based ways to help Europe’s cities transition to an innovative future maximising their sustainability, resilience and liveability. 
+* [The Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) encourages proposals for research with potential impacts relating to topics such as data-driven biology and technology development for the biosciences.
+* [The Science and Technology Facilities Council](https://stfc.ukri.org/) tackles issues like computational science, exploring the value of data and the ways in which this can be maximised to support and promote research and innovation in fields ranging from energy to engineering, from particle physics to the life sciences.
+* [Innovate UK](https://www.ukri.org/councils/innovate-uk/) is working on a range of different topics on business innovation, climate change, and resilient finance, supporting the development of new approaches in a range of technologies including advanced manufacturing, artificial intelligence, digital, electronics, sensors, biosciences, quantum and advanced computing.
+* [The Natural Environment Research Council](https://nerc.ukri.org/) are looking at new, innovative ways to achieve a net zero, economy and society.
 
-Viewed  [together](https://docs.google.com/document/d/1_7l7WDhRS-fZJP6UjKZYG5mmWpkF4ePZsYaxTyR0y2g/edit#heading=h.c6k95x8aqtly), this list of funding priorities and target areas of work represents a heuristic sketch of the data-related research landscape and helps convey the diversity of topics and thematic areas included within it. We discuss the differences between the funding priorities of philanthropic funders and the UKRI research councils in a  [later section](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.eb2fqwiaj0kq).
+Viewed [together](https://docs.google.com/document/d/1_7l7WDhRS-fZJP6UjKZYG5mmWpkF4ePZsYaxTyR0y2g/edit#heading=h.c6k95x8aqtly), this list of funding priorities and target areas of work represents a heuristic sketch of the data-related research landscape and helps convey the diversity of topics and thematic areas included within it. We discuss the differences between the funding priorities of philanthropic funders and the UKRI research councils in a  [later section](https://docs.google.com/document/d/16NY5Xus-yJPr9RXCXSx2Y4BxidsRoGygUm_EILzR3f4/edit#bookmark=id.eb2fqwiaj0kq).
 
 ## Is the field fragmented and what challenges does this present?
 While there seems to be general agreement that a broad field of research about data is emerging, it appears this field is still highly fragmented and this makes it difficult to conduct the type of multidisciplinary work that is often required in this space. 
