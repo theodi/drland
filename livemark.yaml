@@ -31,8 +31,8 @@ pages:
         - path: pages/findings/who-is-funding
         - path: pages/findings/how-much-funding-keywords
         - path: pages/findings/amount-changed-decade
-        # - path: pages/findings/who-is-researching
-        # - path: pages/findings/where-is-publishing
+        - path: pages/findings/who-is-researching
+        - path: pages/findings/where-is-publishing
         # - path: pages/findings/top-articles
     - name: Discussion
       path: pages/discussion
