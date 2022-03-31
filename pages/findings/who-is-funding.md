@@ -1,4 +1,4 @@
-# Who is funding data-related research (as a whole)
+# Who is funding data-related research?
 The second question was: ‘Who is funding data-related research in each of the three datasets we are using?’ For this question we wanted to look at the top 10 funders based on a series of different metrics. Unfortunately, the Lens does not have suitable financial data to support answering this question, so we used 360Giving and Gateway to Research here. We look at the total amount of money that each funder had put towards data-related research, and the quantity of grants they had provided. 
 
 ### Total number of grants in 360Giving (2012–2022)

@@ -1,2 +1,3 @@
-# Findings from our quantitative analysis
+# Quantitative findings intro
+
 To add to the qualitative findings from our interviews, we also looked at what was possible in terms of quantitative analysis using existing online research catalogues and knowledge bases. That is, what datasets could we collect, hone and then analyse which would help us understand the data-related research landscape? What would be good sources of this data and do these sources make it easy to find specifically data-related research? Can the datasets that we create provide useful high-level insights about the funding, projects and outputs within this emerging field?
