@@ -25,7 +25,7 @@ pages:
       path: pages/methodology
     - name: Findings
       items:
-        # - path: pages/findings/qualt-interviews-with-funders
+        - path: pages/findings/qualt-interviews-with-funders
         - path: pages/findings/quantitative-findings
         - path: pages/findings/dispersed-field
         - path: pages/findings/who-is-funding
@@ -34,5 +34,7 @@ pages:
         - path: pages/findings/who-is-researching
         - path: pages/findings/where-is-publishing
         - path: pages/findings/most-cited-articles
+        - path: pages/findings/top-keywords-topics
+        - path: pages/findings/datasets
     - name: Discussion
       path: pages/discussion
