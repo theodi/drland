@@ -13,7 +13,7 @@ This will help:
 * **Potential users of this research** to locate the findings, insights and evidence that are relevant to their circumstances and needs. 
 * **Funders and supporters of data-related research** to spot peaks and troughs of funding, identify emerging ideas and technologies worth funding, spotlight under-examined topics, understand the funding focus of other funders and coordinate with others to produce the greatest impact.
 
-## Gaps in the evidence base and how we will work to fill them
+## Gaps in the evidence base
 It is important to note, however, that these results are based on an extremely small section of the entire landscape of data-related research, in large part because there are major gaps in the evidence base. So long as these gaps remain unfilled, it will only be possible to map parts of the data-related research landscape - a comprehensive view of the field will remain out of reach. 
 
 Over the coming years, the ODI’s Evidence & Foresight programme will continue mapping the emerging field of data-related research and help fill in these large gaps in the evidence base. This will involve working to convene interested people and organisations to understand the challenges better and co-develop strategies to address them. 
