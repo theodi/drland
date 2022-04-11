@@ -95,7 +95,7 @@ Someone else from a UK research council stressed the importance of increasing pe
 
 In addition to public engagement activities, it seems reasonable to say that in order for data to be trustworthy and for people to subsequently trust it, there needs to be a high degree of curation of that data. About that, one participant said that “…we definitely need to fund more efforts around data curation and data quality, building on and implementing fair principles” (Participant K, UK research council).
 
-To the second point, one participant mentioned that “there is always a difficult tension between what we think is important and what we can actually fund.” (Participant H, UK research council). Although this is something that applies to all kinds of research, it seems important to highlight how budget allocation and financial priorities play a role in setting future research agendas. Indeed, as one of our interviewees noted, that process “[…] is very much subject to spending review and […] whether there’s any kind of mandate on how we spend that money” (Participant M, UK research council). 
+To the second point, one participant mentioned that “there is always a difficult tension between what we think is important and what we can actually fund.” (Participant H, UK research council). Although this is something that applies to all kinds of research, it seems important to highlight how budget allocation and financial priorities play a role in setting future research agendas. 
 
 The next section presents the findings of our quantitative analysis. In particular, we attempt to provide answers to eight questions: 
 
