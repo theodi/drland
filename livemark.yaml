@@ -23,18 +23,20 @@ pages:
       path: index
     - name: Methodology
       path: pages/methodology
-    - name: Findings
+    - name: Qualitative Findings
       items:
-        - path: pages/findings/qualt-interviews-with-funders
-        - path: pages/findings/quantitative-findings
-        - path: pages/findings/dispersed-field
-        - path: pages/findings/who-is-funding
-        - path: pages/findings/how-much-funding-keywords
-        - path: pages/findings/amount-changed-decade
-        - path: pages/findings/who-is-researching
-        - path: pages/findings/where-is-publishing
-        - path: pages/findings/most-cited-articles
-        - path: pages/findings/top-keywords-topics
-        - path: pages/findings/datasets
+        - path: pages/qualitative/qualt-interviews-with-funders
+    - name: Quantitative Findings
+      items:
+        - path: pages/quantitative/quantitative-findings
+        - path: pages/quantitative/dispersed-field
+        - path: pages/quantitative/who-is-funding
+        - path: pages/quantitative/how-much-funding-keywords
+        - path: pages/quantitative/amount-changed-decade
+        - path: pages/quantitative/who-is-researching
+        - path: pages/quantitative/where-is-publishing
+        - path: pages/quantitative/most-cited-articles
+        - path: pages/quantitative/top-keywords-topics
+        - path: pages/quantitative/datasets
     - name: Discussion
       path: pages/discussion
