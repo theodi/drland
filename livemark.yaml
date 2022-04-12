@@ -26,6 +26,10 @@ pages:
     - name: Qualitative Findings
       items:
         - path: pages/qualitative/qualt-interviews-with-funders
+        - path: pages/qualitative/emerging-field
+        - path: pages/qualitative/field-fragmented
+        - path: pages/qualitative/coordination-collaboration
+        - path: pages/qualitative/agenda-future-topics
     - name: Quantitative Findings
       items:
         - path: pages/quantitative/quantitative-findings
