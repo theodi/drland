@@ -7,6 +7,9 @@ about:
 github:
   user: theodi
   repo: drland
+counter:
+  type: google
+  code: G-LT9ZE7PWW4
 # news:
 #   text: Work in progress!
 display: false
