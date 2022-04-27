@@ -3,10 +3,10 @@ Although these are only initial results, we believe they demonstrate the value o
 
 In particular, we believe that the tables and datasets produced during this research project can help people interested in data-related research topics to search for and locate relevant materials more efficiently and effectively. The tables and datasets can be filtered to highlight the articles and funding schemes that people are interested in. For instance, someone interested in data ethics would be able to:
 
-* Use the [lists of top funders](XXXXX) in order to identify relevant funding opportunities.
-* Use the [lists of top research organisations](XXXXX) to identify content experts and potential collaborators.
-* Use the [lists of the top fields of study](XXXXX) related to data ethics as a way of expanding their own list of search terms while conducting desk research and as a way of targeting relevant results when searching databases like the Lens and OpenAlex. 
-* Use the [network diagram](XXXXX) to identify the academic disciplines where data ethics is discussed the most and to identify areas of overlap with other concepts or keywords.
+* Use the [lists of top funders](https://theodi.github.io/drland/pages/quantitative/who-is-funding.html) in order to identify relevant funding opportunities.
+* Use the [lists of top research organisations](https://theodi.github.io/drland/pages/quantitative/who-is-researching.html) to identify content experts and potential collaborators.
+* Use the [lists of the top fields of study](https://theodi.github.io/drland/pages/quantitative/top-keywords-topics.html) related to data ethics as a way of expanding their own list of search terms while conducting desk research and as a way of targeting relevant results when searching databases like the Lens and OpenAlex. 
+* Use the [network diagram](https://theodi.github.io/drland/pages/quantitative/dispersed-field.html) to identify the academic disciplines where data ethics is discussed the most and to identify areas of overlap with other concepts or keywords.
 
 This will help:
 * **Researchers** to identify relevant research and findings in adjacent areas of enquiry, identify experts and potential collaborators, stay up to date on emerging ideas and topics, build on previous work, identify potential sources of funding and coordinate to avoid duplicated effort. 
